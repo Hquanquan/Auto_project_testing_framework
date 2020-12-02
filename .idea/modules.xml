@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/自动化测试项目框架.iml" filepath="$PROJECT_DIR$/.idea/自动化测试项目框架.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Auto_project_testing_framework/.idea/Auto_project_testing_framework.iml" filepath="$PROJECT_DIR$/../Auto_project_testing_framework/.idea/Auto_project_testing_framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../delivery_system/.idea/delivery_system.iml" filepath="$PROJECT_DIR$/../delivery_system/.idea/delivery_system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../po模式/.idea/po模式.iml" filepath="$PROJECT_DIR$/../po模式/.idea/po模式.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../自动化项目实战/.idea/自动化项目实战.iml" filepath="$PROJECT_DIR$/../自动化项目实战/.idea/自动化项目实战.iml" />
     </modules>
   </component>
 </project>

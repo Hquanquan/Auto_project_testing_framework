@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="93d5fca4-f52b-4e87-abb0-f6c2924fc2dd" name="默认的" comment="自动化测试项目框架">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Auto_project_testing_framework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/api_conf.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/api_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylib/APIlib/accountsAPI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylib/APIlib/baseAPI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylib/APIlib/organuzAPI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylib/APIlib/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylib/APIlib/说明.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/test_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/test_organizs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/test_organiz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/自动化测试项目框架.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文件说明.txt" beforeDir="false" afterPath="$PROJECT_DIR$/文件说明.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../delivery_system/.idea/delivery_system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../delivery_system/.idea/delivery_system.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../delivery_system/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../delivery_system/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../delivery_system/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../delivery_system/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../delivery_system/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../delivery_system/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../delivery_system/test_case/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../delivery_system/test_case/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../delivery_system/test_case/test_myShop.py" beforeDir="false" afterPath="$PROJECT_DIR$/../delivery_system/test_case/test_myShop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../delivery_system/tools/logBasic.py" beforeDir="false" afterPath="$PROJECT_DIR$/../delivery_system/tools/logBasic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动化项目实战/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../自动化项目实战/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动化项目实战/.idea/自动化项目实战.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../自动化项目实战/.idea/自动化项目实战.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动化项目实战/我的代码/pylib/webapi/accountsAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/../自动化项目实战/我的代码/pylib/webapi/accountsAPI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动化项目实战/我的代码/pylib/webapi/baseApi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../自动化项目实战/我的代码/pylib/webapi/baseApi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动化项目实战/我的代码/testcase/D-管理员登录/test_organizations.py" beforeDir="false" afterPath="$PROJECT_DIR$/../自动化项目实战/我的代码/testcase/D-管理员登录/test_organizations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动化项目实战/项目资料/测试用例.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../自动化项目实战/项目资料/测试用例.xlsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1l5AEE7ifr51wbaUa2NmcRmgLEC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Python.main_test">
+    <configuration name="accountsAPI (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="自动化项目实战" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../自动化项目实战/我的代码/pylib/webapi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../自动化项目实战/我的代码/pylib/webapi/accountsAPI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="accountsAPI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Auto_project_testing_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pylib/APIlib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pylib/APIlib/accountsAPI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="baseAPI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Auto_project_testing_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pylib/APIlib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pylib/APIlib/baseAPI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Auto_project_testing_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="organuzAPI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Auto_project_testing_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pylib/APIlib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pylib/APIlib/organuzAPI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main_test" />
+        <item itemvalue="Python.organuzAPI" />
+        <item itemvalue="Python.accountsAPI (1)" />
+        <item itemvalue="Python.accountsAPI" />
+        <item itemvalue="Python.baseAPI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93d5fca4-f52b-4e87-abb0-f6c2924fc2dd" name="默认的" comment="" />
+      <created>1606876464820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606876464820</updated>
+    </task>
+    <task id="LOCAL-00001" summary="自动化测试项目框架">
+      <created>1606876645833</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606876645833</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="自动化测试项目框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="自动化测试项目框架" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1606876779924">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606876779924" />
+    <state x="805" y="417" key="Github.ShareDialog" timestamp="1606876526512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="805" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606876526512" />
+    <state width="1899" height="302" key="GridCell.Tab.0.bottom" timestamp="1606903475759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="302" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606903475759" />
+    <state width="1899" height="302" key="GridCell.Tab.0.center" timestamp="1606903475759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="302" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606903475759" />
+    <state width="1899" height="302" key="GridCell.Tab.0.left" timestamp="1606903475759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="302" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606903475759" />
+    <state width="1899" height="302" key="GridCell.Tab.0.right" timestamp="1606903475759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="302" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606903475759" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1606876672385">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606876672385" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606893256373">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606893256373" />
+    <state x="719" y="203" key="svn.repositoryBrowser" timestamp="1606876540526">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="719" y="203" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1606876540526" />
+  </component>
+</project>
