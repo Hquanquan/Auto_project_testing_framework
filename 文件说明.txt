@@ -1,0 +1,19 @@
+自动化测试项目框架文件说明：
+1、configs: 放置项目的所有配置文件
+2、data: 放置项目的相关数据文件，如测试用例
+3、log: 放置运行测试产生的log日志
+4、logs: 放置logger日志类
+5、screenshots: 放置截屏图片
+6、utils: 放置一些常用的工具类，函数等
+7、testcase: 放置测试用例
+    7-1、API接口测试用例
+    7-2、UI测试用例
+8、tmp/report: 放置临时文件，如生产的测试报告数据
+9、pylib: 放置核心测试文件
+    9-1、APIlib: 放置API相关的核心测试文件
+    9-2、UIlib: 放置UI界面测试的核心文件
+        9-2-1、pageObjects: 放置页面对象类
+        9-2-2、common: 放置公用的类，函数
+
+
+10、main_test.py: 测试入口
