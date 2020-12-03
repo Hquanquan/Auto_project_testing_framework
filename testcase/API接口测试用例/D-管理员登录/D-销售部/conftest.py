@@ -9,7 +9,7 @@
 import pytest
 
 from pylib.APIlib.accountsAPI import AccountsAPI
-from pylib.APIlib.organuzAPI import OrganizAPI
+from pylib.APIlib.organizAPI import OrganizAPI
 
 @pytest.fixture(scope="session")
 def init_organiz(admin_login):

@@ -25,9 +25,27 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93d5fca4-f52b-4e87-abb0-f6c2924fc2dd" name="默认的" comment="api模块，第1次提交">
+    <list default="true" id="93d5fca4-f52b-4e87-abb0-f6c2924fc2dd" name="默认的" comment="api模块，第 1 次提交">
+      <change afterPath="$PROJECT_DIR$/data/contracts_data.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylib/APIlib/contractTypesAPI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylib/APIlib/contractsAPI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/D-合同类型-房屋合同/D-购房合同/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/D-合同类型-房屋合同/D-购房合同/test_contracts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/D-合同类型-房屋合同/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/D-合同类型-房屋合同/test_contract.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/D-合同类型-房屋合同/test_contractTypes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/test_accounts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/test_contractType.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/convertData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pylib/APIlib/accountsAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylib/APIlib/accountsAPI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pylib/APIlib/organuzAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylib/APIlib/organizAPI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/test_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/test_account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,27 +118,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="baseAPI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Auto_project_testing_framework" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pylib/APIlib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pylib/APIlib/baseAPI.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Auto_project_testing_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,7 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="organuzAPI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="organizAPI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Auto_project_testing_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,7 +151,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pylib/APIlib/organuzAPI.py" />
+      <option name="SCRIPT_NAME" value="E:\learning\PycharmProjects\Auto_project_testing_framework\pylib\APIlib\organizAPI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tools" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Auto_project_testing_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/tools.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,10 +184,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main_test" />
-        <item itemvalue="Python.organuzAPI" />
+        <item itemvalue="Python.tools" />
+        <item itemvalue="Python.organizAPI" />
         <item itemvalue="Python.accountsAPI (1)" />
         <item itemvalue="Python.accountsAPI" />
-        <item itemvalue="Python.baseAPI" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606903549035</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="api模块，第 1 次提交">
+      <created>1606903672272</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606903672272</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,9 +247,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="自动化测试项目框架" />
     <MESSAGE value="api模块，第1次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="api模块，第1次提交" />
+    <MESSAGE value="api模块，第 1 次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="api模块，第 1 次提交" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606983891660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606983891660" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1606876779924">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -233,34 +263,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="805" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606876526512" />
-    <state width="1899" height="302" key="GridCell.Tab.0.bottom" timestamp="1606903475759">
+    <state width="1899" height="776" key="GridCell.Tab.0.bottom" timestamp="1606989550916">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="302" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606903475759" />
-    <state width="1899" height="302" key="GridCell.Tab.0.center" timestamp="1606903475759">
+    <state width="1899" height="776" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606989550916" />
+    <state width="1899" height="776" key="GridCell.Tab.0.center" timestamp="1606989550916">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="302" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606903475759" />
-    <state width="1899" height="302" key="GridCell.Tab.0.left" timestamp="1606903475759">
+    <state width="1899" height="776" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606989550916" />
+    <state width="1899" height="776" key="GridCell.Tab.0.left" timestamp="1606989550916">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="302" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606903475759" />
-    <state width="1899" height="302" key="GridCell.Tab.0.right" timestamp="1606903475759">
+    <state width="1899" height="776" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606989550916" />
+    <state width="1899" height="776" key="GridCell.Tab.0.right" timestamp="1606989550916">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="302" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606903475759" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1606876672385">
+    <state width="1899" height="776" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606989550916" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1606903678464">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606876672385" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606903678464" />
     <state x="773" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606903586874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="773" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606903586874" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606903511559">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606986002992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606903511559" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606986002992" />
     <state x="719" y="203" key="svn.repositoryBrowser" timestamp="1606876540526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -4,7 +4,7 @@
 # @File : accountsAPI.py 
 # @Author  : 黄权权
 # @Software: PyCharm
-# @Desc    :
+# @Desc    : 签约客户APi类
 import pprint
 
 import requests

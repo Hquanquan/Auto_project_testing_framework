@@ -8,7 +8,7 @@
 import pytest
 
 from configs.api_env import userName, password
-from pylib.APIlib.organuzAPI import OrganizAPI
+from pylib.APIlib.organizAPI import OrganizAPI
 from pylib.APIlib.user import User
 
 @pytest.fixture(scope="session")

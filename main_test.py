@@ -18,7 +18,7 @@ def runAPI():
     os.system('allure serve report/tmp')
 
 if __name__ == '__main__':
-    pytest.main(["-s", "-k test_account.py" ])
+    # pytest.main(["-s", "-k test_contracts.py"])
 
 
-    # runAPI()
+    runAPI()
