@@ -28,14 +28,14 @@ class TestContractTypesAPI:
         :param after_tc002002:
         :return:
         """
-        self.new_contractType = self.contractTypes_api.add(name="土地合同", code=get_dataTime())
+        self.new_contractType = self.contractTypes_api.add(name="土地合同", code=get_dataTime("%Y-%m-%d-%H%M%S"))
         contractTypes = self.contractTypes_api.list_all()
         assert self.new_contractType in contractTypes
 
     @pytest.fixture()
     def before_tc002051(self, init_contractTypes):
         self.contractTypes_api = init_contractTypes[0]
-        self.new_contractType = self.contractTypes_api.add(name="销售合同", code=get_dataTime())
+        self.new_contractType = self.contractTypes_api.add(name="销售合同", code=get_dataTime("%Y-%m-%d-%H%M%S"))
         yield
         self.contractTypes_api.delete(self.new_contractType["_id"])
 

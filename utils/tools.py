@@ -26,7 +26,7 @@ def read_yaml(filePath):
         data_json = yaml.safe_load(content)
         return data_json
 
-def get_dataTime(time_formate="%Y-%m-%d-%H%M%S"):
+def get_dataTime(time_formate="%Y-%m-%d %H:%M:%S-%f"):
     """
     获取当前时间，转换为指定的字符串格式返回
     :param time_formate: 格式

@@ -28,7 +28,7 @@ class TestContractTypesAPI:
         :param after_tc002001: 初始化环境，提供一个合同分类实例对象
         :return:
         """
-        self.new_contractType = self.contractTypes_api.add(name="房产合同类型", code=get_dataTime())
+        self.new_contractType = self.contractTypes_api.add(name="房产合同类型", code=get_dataTime("%Y-%m-%d-%H%M%S"))
         contractTypes = self.contractTypes_api.list_all()
         assert self.new_contractType in contractTypes
 
@@ -47,7 +47,7 @@ class TestContractTypesAPI:
     @pytest.fixture()
     def before_tc002091(self, empty_contractType):
         self.contractTypes_api = empty_contractType
-        self.new_contractType = self.contractTypes_api.add(name="房产合同类型", code=get_dataTime())
+        self.new_contractType = self.contractTypes_api.add(name="房产合同类型", code=get_dataTime("%Y-%m-%d-%H%M%S"))
 
     @allure.story("合同分类-ContractTypesAPI-删除合同分类")
     @allure.title("删除合同分类测试用例")

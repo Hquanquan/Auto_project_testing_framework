@@ -21,11 +21,11 @@ class TestContractsAPI:
         yield
         self.contract_api.delete(self.new_contract["_id"])
 
-    @dynamic_report('name', 'name')
+    @dynamic_report('decs', 'decs')
     @allure.story("合同-ContractsAPI-添加合同")
     @allure.title("添加合同测试用例")
-    @pytest.mark.parametrize("name,amount", ConvertData.get_param())
-    def test_tc003001(self, name, amount, after_tc003001, init_organiz, init_accounts, init_contractTypes):
+    @pytest.mark.parametrize("name,amount,decs", ConvertData.get_param())
+    def test_tc003001(self, name, amount, decs, after_tc003001, init_organiz, init_accounts, init_contractTypes):
         """
         当前系统没有合同，添加合同。预期结果是添加的合同存在于所有的合同列表中
         添加合同需要的参数：

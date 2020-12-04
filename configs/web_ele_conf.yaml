@@ -1,0 +1,10 @@
+# 所有页面的元素: [定位方式，定位值]
+
+BasePage:
+
+
+LoginPage:
+  username: ["id", "username"]
+  password: ["id", "password"]
+  login_btn: ["css selector", ".loginItem .layui-form-item button"]
+

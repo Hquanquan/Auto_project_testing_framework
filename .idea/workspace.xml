@@ -25,26 +25,21 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93d5fca4-f52b-4e87-abb0-f6c2924fc2dd" name="默认的" comment="api模块，第 1 次提交">
-      <change afterPath="$PROJECT_DIR$/data/contracts_data.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pylib/APIlib/contractTypesAPI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pylib/APIlib/contractsAPI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/D-合同类型-房屋合同/D-购房合同/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/D-合同类型-房屋合同/D-购房合同/test_contracts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/D-合同类型-房屋合同/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/D-合同类型-房屋合同/test_contract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/D-合同类型-房屋合同/test_contractTypes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/test_accounts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/test_contractType.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/convertData.py" afterDir="false" />
+    <list default="true" id="93d5fca4-f52b-4e87-abb0-f6c2924fc2dd" name="默认的" comment="api模块，第 2 次提交">
+      <change afterPath="$PROJECT_DIR$/configs/web_config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/web_ele_conf.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylib/UIlib/common/webDriver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/basePage1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/basepage2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/basepage3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/loginPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pylib/APIlib/accountsAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylib/APIlib/accountsAPI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pylib/APIlib/organuzAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylib/APIlib/organizAPI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/test_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/test_account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/contracts_data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/contracts_data.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/D-合同类型-房屋合同/test_contract.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/D-合同类型-房屋合同/test_contract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/D-合同类型-房屋合同/test_contractTypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/D-合同类型-房屋合同/test_contractTypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/test_contractType.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/test_contractType.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,22 +68,28 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/logs" />
   </component>
-  <component name="RunManager" selected="Python.main_test">
-    <configuration name="accountsAPI (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="自动化项目实战" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\learning\PycharmProjects\Auto_project_testing_framework\logs" />
+      <recent name="E:\learning\PycharmProjects\Auto_project_testing_framework\configs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.loginPage">
+    <configuration name="basePage1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Auto_project_testing_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../自动化项目实战/我的代码/pylib/webapi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pylib/UIlib/pageObjects" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../自动化项目实战/我的代码/pylib/webapi/accountsAPI.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pylib/UIlib/pageObjects/basePage1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="accountsAPI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="basepage3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Auto_project_testing_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,11 +106,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pylib/APIlib" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pylib/UIlib/pageObjects" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pylib/APIlib/accountsAPI.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pylib/UIlib/pageObjects/basepage3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="loginPage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Auto_project_testing_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pylib/UIlib/pageObjects" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pylib/UIlib/pageObjects/loginPage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,7 +161,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="organizAPI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="webDriver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Auto_project_testing_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,32 +169,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pylib/APIlib" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pylib/UIlib/common" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\learning\PycharmProjects\Auto_project_testing_framework\pylib\APIlib\organizAPI.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tools" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Auto_project_testing_framework" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/tools.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pylib/UIlib/common/webDriver.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.loginPage" />
         <item itemvalue="Python.main_test" />
-        <item itemvalue="Python.tools" />
-        <item itemvalue="Python.organizAPI" />
-        <item itemvalue="Python.accountsAPI (1)" />
-        <item itemvalue="Python.accountsAPI" />
+        <item itemvalue="Python.basepage3" />
+        <item itemvalue="Python.basePage1" />
+        <item itemvalue="Python.webDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606903672272</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="api模块，第 2 次提交">
+      <created>1606989618807</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606989618807</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,12 +251,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="自动化测试项目框架" />
     <MESSAGE value="api模块，第1次提交" />
     <MESSAGE value="api模块，第 1 次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="api模块，第 1 次提交" />
+    <MESSAGE value="api模块，第 2 次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="api模块，第 2 次提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606983891660">
@@ -263,34 +273,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="805" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606876526512" />
-    <state width="1899" height="776" key="GridCell.Tab.0.bottom" timestamp="1606989550916">
+    <state width="1899" height="387" key="GridCell.Tab.0.bottom" timestamp="1607082255536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="776" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606989550916" />
-    <state width="1899" height="776" key="GridCell.Tab.0.center" timestamp="1606989550916">
+    <state width="1899" height="387" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607082255536" />
+    <state width="1899" height="387" key="GridCell.Tab.0.center" timestamp="1607082255536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="776" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606989550916" />
-    <state width="1899" height="776" key="GridCell.Tab.0.left" timestamp="1606989550916">
+    <state width="1899" height="387" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607082255536" />
+    <state width="1899" height="387" key="GridCell.Tab.0.left" timestamp="1607082255536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="776" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606989550916" />
-    <state width="1899" height="776" key="GridCell.Tab.0.right" timestamp="1606989550916">
+    <state width="1899" height="387" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607082255536" />
+    <state width="1899" height="387" key="GridCell.Tab.0.right" timestamp="1607082255536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="776" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606989550916" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1606903678464">
+    <state width="1899" height="387" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607082255536" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1606989622412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606903678464" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606989622412" />
     <state x="773" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606903586874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="773" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606903586874" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606986002992">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607064470830">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606986002992" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607064470830" />
     <state x="719" y="203" key="svn.repositoryBrowser" timestamp="1606876540526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
