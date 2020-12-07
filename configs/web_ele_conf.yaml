@@ -8,3 +8,65 @@ LoginPage:
   password: ["id", "password"]
   login_btn: ["css selector", ".loginItem .layui-form-item button"]
 
+
+CommonPage:
+  # 退出登录按钮
+  logout_btn: ["id","logout"]
+  # 退出登录提示弹窗
+  logoutTip: ["css selector",".layui-layer.layui-layer-dialog"]
+  # 退出登录弹窗里的确定按钮
+  logout_confirm: ["css selector","div.layui-layer-dialog a.layui-layer-btn0"]
+  # 退出登录弹窗里的取消按钮
+  logout_cancel: ["css selector","div.layui-layer-dialog a.layui-layer-btn1"]
+
+  # 待跟客户iframe
+  waittingCustomers_iframe: ["xpath", '//iframe[@src="pages/market/wait/wait.html"]']
+
+  # 首页概览
+  homePagePreview: ["xpath", '//cite[contains(text(),"首页概览")]']
+  # 客户管理
+  customerManagement: ["xpath", '//cite[contains(text(),"客户管理")]']
+  # 待跟客户
+  waittingCustomers: ["xpath", '//cite[contains(text(),"待跟客户")]']
+
+  # 资质办理
+  qualificationManagement: ["xpath", '//cite[contains(text(),"资质办理")]']
+  # 公共资源
+  publicResource: ["xpath", '//cite[contains(text(),"公共资源")]']
+  # 财务管理
+  financialManagement: ["xpath", '//cite[contains(text(),"财务管理")]']
+  # 客服管理
+  CustomerServiceManagement: ["xpath", '//cite[contains(text(),"客服管理")]']
+  # 数据统计
+  dataStatistics: ["xpath", '//cite[contains(text(),"数据统计")]']
+  # OA协同
+  OA_collaboration: ["xpath", '//cite[contains(text(),"OA协同")]']
+  # 系统设置
+  SystemSettings: ["xpath", '//cite[contains(text(),"系统设置")]']
+
+
+
+
+WaittingCustomers:
+  path: pages/market/wait/wait.html
+  create_Cus_Btn: ["xpath", '//button[@permission="45" and @lay-event="createCus"]']
+  #  添加客户的iframe
+  WaittingCustomers_iframe: ["id", "layui-layer-iframe2"]
+
+  #  公司名称输入框
+  companyName_input: ["xpath", '//input[@type="text" and @placeholder="公司名称"]']
+  #  联系电话输入框
+  phoneNumber_input: ["xpath",'//input[@type="text" and @placeholder="联系电话"]']
+  #  联系微信
+  #  联系QQ
+  #  联系人员
+  #  email
+  #  部门职位
+  #  咨询资质
+  #  客户来源
+  #  来源渠道
+  #  所在地区
+  #  详细地址
+  #  资质类型
+  #  其他备注
+

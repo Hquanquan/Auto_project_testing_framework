@@ -14,7 +14,7 @@ from selenium.webdriver import ActionChains
 from logs.logger import Logger
 from pylib.UIlib.common.webDriver import Driver
 
-logger = Logger(logger="BasePage").getlog()
+logger = Logger(logger="BasePage3").getlog()
 
 class BasePage:
 

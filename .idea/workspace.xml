@@ -21,12 +21,31 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93d5fca4-f52b-4e87-abb0-f6c2924fc2dd" name="默认的" comment="api模块，第 3 次提交">
+      <change afterPath="$PROJECT_DIR$/configs/web_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/commonPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/demoPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/log/20201207161552.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/log/20201207174816.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/waitingCustomers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/202012071804.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/test_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/web_ele_conf.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/web_ele_conf.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pylib/UIlib/common/webDriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylib/UIlib/common/webDriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pylib/UIlib/pageObjects/basePage1.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/basePage1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pylib/UIlib/pageObjects/basepage2.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/basePage2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pylib/UIlib/pageObjects/basepage3.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/basePage3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pylib/UIlib/pageObjects/loginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/loginPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +81,8 @@
       <recent name="E:\learning\PycharmProjects\Auto_project_testing_framework\configs" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.loginPage">
-    <configuration name="basePage1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main_test">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Auto_project_testing_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,32 +90,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pylib/UIlib/pageObjects" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pylib/UIlib/pageObjects/basePage1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="basepage3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Auto_project_testing_framework" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pylib/UIlib/pageObjects" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pylib/UIlib/pageObjects/basepage3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,6 +145,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tools" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Auto_project_testing_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/tools.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="webDriver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Auto_project_testing_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.loginPage" />
         <item itemvalue="Python.main_test" />
-        <item itemvalue="Python.basepage3" />
-        <item itemvalue="Python.basePage1" />
+        <item itemvalue="Python.loginPage" />
         <item itemvalue="Python.webDriver" />
+        <item itemvalue="Python.tools" />
+        <item itemvalue="Python.demo" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607082354150</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="api模块，第 3 次提交">
+      <created>1607082479580</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607082479580</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +265,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -282,34 +320,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="805" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606876526512" />
-    <state width="1899" height="387" key="GridCell.Tab.0.bottom" timestamp="1607082326416">
+    <state width="1899" height="354" key="GridCell.Tab.0.bottom" timestamp="1607335646484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="387" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607082326416" />
-    <state width="1899" height="387" key="GridCell.Tab.0.center" timestamp="1607082326416">
+    <state width="1899" height="354" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607335646484" />
+    <state width="1899" height="354" key="GridCell.Tab.0.center" timestamp="1607335646484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="387" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607082326416" />
-    <state width="1899" height="387" key="GridCell.Tab.0.left" timestamp="1607082326415">
+    <state width="1899" height="354" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607335646484" />
+    <state width="1899" height="354" key="GridCell.Tab.0.left" timestamp="1607335646484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="387" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607082326415" />
-    <state width="1899" height="387" key="GridCell.Tab.0.right" timestamp="1607082326416">
+    <state width="1899" height="354" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607335646484" />
+    <state width="1899" height="354" key="GridCell.Tab.0.right" timestamp="1607335646484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="387" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607082326416" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1607082384903">
+    <state width="1899" height="354" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607335646484" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1607334564886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607082384903" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607334564886" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1607334564886">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607334564886" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1607334564886">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607334564886" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1607334564886">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607334564886" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1607082483757">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607082483757" />
     <state x="773" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606903586874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="773" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606903586874" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607064470830">
+    <state x="803" y="291" key="refactoring.ChangeSignatureDialog" timestamp="1607311633481">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607064470830" />
+    <state x="803" y="291" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607311633481" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607332063384">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607332063384" />
     <state x="719" y="203" key="svn.repositoryBrowser" timestamp="1606876540526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

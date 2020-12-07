@@ -5,20 +5,29 @@
 # @Author  : 黄权权
 # @Software: PyCharm
 # @Desc    : None
-from pylib.UIlib.pageObjects.basepage2 import BasePage
+from pylib.UIlib.pageObjects.basePage1 import BasePage
 
 
 class LoginPage(BasePage):
-    #
-    username = ["id", "username"]
-    password = ["id", "password"]
-    login_btn = ["css selector", ".loginItem .layui-form-item button"]
+    # 方案一: 通过读取配置文件里的数据作为属性值,动态赋值
 
+    # 方案二: 手动编辑赋值属性，硬编码
+    # username = ["id", "username"]
+    # password = ["id", "password"]
+    # login_btn = ["css selector", ".loginItem .layui-form-item button"]
+
+    # 方案三: 与方案二一样，只是传参不一样
     # username = "id=>username"
     # password = "id=>password"
     # login_btn = "css=>.loginItem .layui-form-item button"
 
     def login(self, username, password):
+        """
+        登录系统
+        :param username:
+        :param password:
+        :return:
+        """
         self.send_keys(self.username, username)
         self.send_keys(self.password, password)
         self.click(self.login_btn)

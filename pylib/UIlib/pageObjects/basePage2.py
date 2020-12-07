@@ -9,14 +9,19 @@
 import os
 import time
 
-from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver import ActionChains
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
+from configs.web_env import TimeOut, PollFrequency
 from logs.logger import Logger
 from pylib.UIlib.common.webDriver import Driver
 from utils.tools import get_dataTime
 
-logger = Logger(logger="BasePage").getlog()
+logger = Logger(logger="BasePage2").getlog()
+
+
 class BasePage:
     """
     BasePage 类，所有页面的基础类，所有的页面类都要继承该类
@@ -25,10 +30,39 @@ class BasePage:
     # 初始化 driver 对象
     def __init__(self):
         """
-        初始化 driver 对象
+        初始化 获取浏览器驱动对象
         """
-        # 获取浏览器驱动对象
         self.driver = Driver.get_driver()
+
+    def find_element1(self, selectors):
+        element = ''
+        selector_by = selectors[0]  # 元素名称
+        selector_value = selectors[1]  # 元素ID名称
+        try:
+            # 显示等待，判断元素是否存在
+            WebDriverWait(
+                # 传入浏览器对象
+                driver=self.driver,
+                # 传入超时时间
+                timeout=TimeOut,
+                # 传入轮询时间
+                poll_frequency=PollFrequency).until(
+                # 检测定位的元素是否可见，这里接受的就是个元组作为参数，所以不需要解包
+                EC.visibility_of_element_located(selectors)
+            )
+        except TimeoutException as e:
+            logger.error("%s 查找元素超时" % get_dataTime())
+
+        if selector_by == "i" or selector_by == "id":
+            try:
+                element = self.driver.find_element_by_id(selector_value)  # id 定位
+                logger.info("%s Had find the element \' %s \' successfully "
+                            "by %s via value:%s" % (get_dataTime(), element.text, selector_by, selector_value))
+            except NoSuchElementException as e:
+                logger.error("%s NoSuchElementException:%s" % (get_dataTime(), e))
+                self.get_windows_img()
+        return element
+
 
     # 根据特定的表达式获取元素
     def find_element(self, selectors):
@@ -321,7 +355,6 @@ class BasePage:
         logger.info("%s Switch to the current latest window" % get_dataTime())
         self.driver.switch_to.window(self.window_handles()[-1])
 
-
     # 刷新当前页面
     def refresh(self):
         """
@@ -419,18 +452,3 @@ class BasePage:
 
 if __name__ == '__main__':
     basepage = BasePage()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

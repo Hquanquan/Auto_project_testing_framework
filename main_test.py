@@ -9,6 +9,10 @@ import os
 
 import pytest
 
+from pylib.UIlib.pageObjects.loginPage import LoginPage
+from pylib.UIlib.pageObjects.demoPage import Demopage
+
+
 def runAPI():
     for one in os.listdir('report/tmp'):  # 列出对应文件夹的数据
         if 'json' in one:
@@ -18,6 +22,7 @@ def runAPI():
     os.system('allure serve report/tmp')
 
 if __name__ == '__main__':
-    # pytest.main(["-s", "-k test_contracts.py"])
-
+    # demoPage = Demopage()
+    # demoPage.find_ele()
+    # pytest.main(["-s", "-k test_user.py"])
     runAPI()
