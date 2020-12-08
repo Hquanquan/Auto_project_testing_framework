@@ -112,7 +112,11 @@ class CommonPage(BasePage):
             self.click(self.SystemSettings)
         return self
 
-    def switch_to_myiframe(self):
+    def switch_to_waittingCustomers_iframe(self):
+        """
+        切换到客户管理-待跟客户iframe
+        :return:
+        """
         myiframe_object = self.find_element(self.waittingCustomers_iframe)
         self.driver.switch_to.frame(myiframe_object)
 

@@ -24,5 +24,5 @@ def runAPI():
 if __name__ == '__main__':
     # demoPage = Demopage()
     # demoPage.find_ele()
-    # pytest.main(["-s", "-k test_user.py"])
-    runAPI()
+    pytest.main(["-s", "-k test_user.py"])
+    # runAPI()

@@ -15,6 +15,9 @@
 # TAG_NAME = "tag name"
 # CLASS_NAME = "class name"
 # CSS_SELECTOR = "css selector"
+import yaml
+
+from utils.tools import get_dataTime, read_yaml
 
 ID = "id"
 XPATH = "xpath"
@@ -71,7 +74,29 @@ def get_phone_num():
     return phone_num
 
 
+def create_Str(text):
+    """
+    生成以text开头，以当前时间结尾的字符串
+    :param text:
+    :return:
+    """
+    return text + get_dataTime(time_formate="%Y%m%d%H%M%S")
+
+
+def write_yaml(args, path="configs/createCustomers.yaml"):
+    with open(path, "w", encoding="utf-8") as f:
+        yaml.dump(args, f, allow_unicode=True)
+
+
 if __name__ == '__main__':
     # 生成手机号
-    phone = create_phone()
-    print(phone)
+    costomers = {
+        "name": create_Str("客户名称"),
+        "phone": get_phone_num(),
+    }
+    args = {"costomers": costomers}
+    write_yaml(args)
+
+    a = read_yaml("configs/createCustomers.yaml")
+    print(a)
+

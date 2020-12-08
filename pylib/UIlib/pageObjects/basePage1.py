@@ -254,8 +254,9 @@ class BasePage:
                 os.makedirs(file_path)
             except Exception as e:
                 logger.error("%s Failed new bulid folder %s" % (get_dataTime(), e))
-        # 获取时间作为字符串，用作保存图片的名称
-        rq = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))
+        # # 获取时间作为字符串，用作保存图片的名称
+        # rq = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))
+        rq = get_dataTime('%Y%m%d%H%M%S')
         screen_name = file_path + rq + '.png'
         try:
             self.driver.get_screenshot_as_file(screen_name)

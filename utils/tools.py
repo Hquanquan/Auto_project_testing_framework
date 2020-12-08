@@ -12,6 +12,15 @@ from functools import wraps
 import allure
 import yaml
 
+def write_yaml(args, path="configs/createCustomers.yaml"):
+    """
+    写入数据到指定的yaml文件中
+    :param args:
+    :param path: path="configs/createCustomers.yaml"默认值
+    :return:
+    """
+    with open(path, "w", encoding="utf-8") as f:
+        yaml.dump(args, f, allow_unicode=True)
 
 def read_yaml(filePath):
     """
@@ -88,4 +97,6 @@ if __name__ == '__main__':
     data = read_yaml(r"../configs/api_conf.yaml")
     print(get_phone_num())
     print(create_Str("公司名称"))
+
+
 
