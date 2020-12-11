@@ -28,7 +28,8 @@ CommonPage:
   customerManagement: ["xpath", '//cite[contains(text(),"客户管理")]']
   # 待跟客户
   waittingCustomers: ["xpath", '//cite[contains(text(),"待跟客户")]']
-
+  # 签约客户
+  signedCustomers: ["xpath", '//cite[contains(text(),"签约客户")]']
   # 资质办理
   qualificationManagement: ["xpath", '//cite[contains(text(),"资质办理")]']
   # 公共资源
@@ -45,9 +46,8 @@ CommonPage:
   SystemSettings: ["xpath", '//cite[contains(text(),"系统设置")]']
 
 
-
-
-WaittingCustomers:
+# 待跟客户列表页
+WaittingCustomersPage:
   path: pages/market/wait/wait.html
   create_Cus_Btn: ["xpath", '//button[@permission="45" and @lay-event="createCus"]']
   #  添加客户的iframe
@@ -108,8 +108,26 @@ WaittingCustomers:
   WaittingCustomers_table_person_locator: ["css selector",".layui-table-main tbody td:nth-child(5)"]
   #  客户列表-联系电话列
   WaittingCustomers_table_phone_locator: ["css selector",".layui-table-main tbody td:nth-child(6)"]
+  #  客户列表页-操作列里的-详情按钮
+  WaittingCustomers_table_detail_btn: ["xpath", '//button[contains(text(),"详情")]']
+  #  待跟客户列表页里的客户详情iframe
+  customers_detail_iframe: ["xpath", '//iframe[@src="../../cmc/customer/detail.html"]']
 
 
-
-
+#客户详情页
+customersDetailPage:
+  #  添加备注
+  add_notes_btn: ["xpath", '//button[contains(text(),"添加备注")]']
+  #  写新跟进
+  followOperate_btn: ["xpath", '//button[contains(text(),"写新跟进")]']
+  #  跟进提醒
+  remindOperate_btn: ["xpath", '//button[contains(text(),"跟进提醒")]']
+  #  签约客户
+  sign_Customers_btn: ["xpath", '//button[contains(text(),"签约客户")]']
+  #  签约客户弹窗的确定按钮
+  sign_Customers_confirm: ["css selector", "div.swal2-show button.swal2-confirm"]
+  # 完善合同
+  perfectOperate_btn: ["xpath", '//button[contains(text(),"完善合同")]']
+  #  客户编辑
+  editor_customer_btn: ["xpath", '//button[contains(text(),"客户编辑")]']
 

@@ -5,12 +5,14 @@
 # @Author  : 黄权权
 # @Software: PyCharm
 # @Desc    : None
+import allure
+
 from pylib.UIlib.pageObjects.basePage1 import BasePage
 
 
 class CommonPage(BasePage):
 
-
+    @allure.step("step:退出登录")
     def logout(self):
         """
         退出当前账号
@@ -21,7 +23,7 @@ class CommonPage(BasePage):
         return self
 
     # ================左侧菜单栏=============================
-
+    @allure.step("step:点击【首页预览】")
     def click_homePagePreview(self):
         """
         点击首页预览
@@ -31,6 +33,7 @@ class CommonPage(BasePage):
             self.click(self.homePagePreview)
         return self
 
+    @allure.step("step:点击【客户管理】")
     def click_customerManagement(self):
         """
         点击客户管理
@@ -40,6 +43,7 @@ class CommonPage(BasePage):
             self.click(self.customerManagement)
         return self
 
+    @allure.step("step:点击【待跟客户】")
     def click_waittingCustomers(self):
         """
         点击待跟客户
@@ -49,6 +53,18 @@ class CommonPage(BasePage):
             self.click(self.waittingCustomers)
         return self
 
+    @allure.step("step:点击【签约客户】")
+    def click_signedCustomers(self):
+        """
+        点击待跟客户
+        :return:
+        """
+        if self.isdispaly(self.signedCustomers):
+            self.click(self.signedCustomers)
+        return self
+
+
+    @allure.step("step:点击【资质办理】")
     def click_qualificationManagement(self):
         """
         点击资质办理
@@ -58,15 +74,17 @@ class CommonPage(BasePage):
             self.click(self.qualificationManagement)
         return self
 
+    @allure.step("step:点击【公共资源】")
     def click_publicResource(self):
         """
-        点击资质办理
+        点击公共资源
         :return:
         """
         if self.isdispaly(self.publicResource):
             self.click(self.publicResource)
         return self
 
+    @allure.step("step:点击【财务管理】")
     def click_financialManagement(self):
         """
         点击财务管理
@@ -76,6 +94,7 @@ class CommonPage(BasePage):
             self.click(self.financialManagement)
         return self
 
+    @allure.step("step:点击【客服管理】")
     def click_CustomerServiceManagement(self):
         """
         点击客服管理
@@ -85,6 +104,7 @@ class CommonPage(BasePage):
             self.click(self.CustomerServiceManagement)
         return self
 
+    @allure.step("step:点击【数据统计】")
     def click_dataStatistics(self):
         """
         点击数据统计
@@ -94,6 +114,7 @@ class CommonPage(BasePage):
             self.click(self.dataStatistics)
         return self
 
+    @allure.step("step:点击【OA协同】")
     def click_OA_collaboration(self):
         """
         点击OA协同
@@ -103,6 +124,7 @@ class CommonPage(BasePage):
             self.click(self.OA_collaboration)
         return self
 
+    @allure.step("step:点击【系统设置】")
     def click_SystemSettings(self):
         """
         点击系统设置
@@ -112,6 +134,7 @@ class CommonPage(BasePage):
             self.click(self.SystemSettings)
         return self
 
+    @allure.step("step:（内部操作）切换到【待跟客户的iframe】")
     def switch_to_waittingCustomers_iframe(self):
         """
         切换到客户管理-待跟客户iframe

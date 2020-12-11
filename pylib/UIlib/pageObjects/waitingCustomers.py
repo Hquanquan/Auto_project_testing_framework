@@ -7,16 +7,19 @@
 # @Desc    : 待跟客户列表页
 import time
 
+import allure
+
 from configs.web_env import HOST
 from pylib.UIlib.pageObjects.basePage1 import BasePage
 from utils.tools import create_Str, get_phone_num, write_yaml
 
 
-class WaittingCustomers(BasePage):
+class WaittingCustomersPage(BasePage):
     """
     待跟客户列表页
     """
     # 创建客户
+    @allure.step("step:【创建客户】")
     def createCustomers(self):
         """
         创建客户
@@ -41,7 +44,7 @@ class WaittingCustomers(BasePage):
             "QQ": get_phone_num(),
             "contactPerson": create_Str("联系人"),
             "email": get_phone_num() + "@test.com",
-            "departmentPosition": "老板私人秘书",
+            "departmentPosition": "董事长助理",
             "qualification": "工程造价",
             "otherRemarks": create_Str("测试创建客户"),
         }
@@ -81,6 +84,7 @@ class WaittingCustomers(BasePage):
         return self
 
     # 查找客户
+    @allure.step("step:【查找客户】")
     def find_customers(self, keyword, input1=True):
         """
         根据客户名称，联系人，联系电话,QQ、微信、邮箱 查找客户
@@ -99,6 +103,7 @@ class WaittingCustomers(BasePage):
         return self
 
     # 获取查找客户后的列表客户信息
+    @allure.step("step:【获取查找客户后的列表客户信息】")
     def get_tables_costomersInfo(self):
         """
         获取待跟客户列表里单行数据里的公司名称，联系人，联系电话
@@ -113,6 +118,24 @@ class WaittingCustomers(BasePage):
             "contactPerson": contactPerson,
         }
         return costomersInfo
+
+    # 点击客户列表里的【详情】按钮
+    @allure.step("step: 【进入客户详情页】")
+    def click_detail_btn(self):
+        """点击客户列表里的【详情】按钮,进入客户详情页"""
+        # 找到一组详情按钮，其中下标为1的是准确的
+        eles = self.find_elements(self.WaittingCustomers_table_detail_btn)
+        eles[1].click()
+
+    # 切换到客户详情iframe
+    @allure.step("step: 【内部操作：切换到客户详情iframe】")
+    def switch_to_customers_datail_iframe(self):
+        """切换到客户详情iframe"""
+        myiframe_object = self.find_element(self.customers_detail_iframe)
+        self.driver.switch_to.frame(myiframe_object)
+
+
+
 
 
 

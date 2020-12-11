@@ -218,8 +218,8 @@ class BasePage:
         elif selector_by == "x" or selector_by == "xpath":
             try:
                 elements = self.driver.find_elements_by_xpath(selector_value)
-                logger.info("%s Had find the elements \' %s \' successfully "
-                            "by %s via value:%s" % (get_dataTime(), elements.text, selector_by, selector_value))
+                logger.info("%s Had find the elements  successfully "
+                            "by %s via value:%s" % (get_dataTime(), selector_by, selector_value))
             except NoSuchElementException as e:
                 logger.error("%s NoSuchElementException:%s" % (get_dataTime(), e))
                 self.get_windows_img()
@@ -417,6 +417,7 @@ class BasePage:
         logger.info("%s Switch to the current latest window" % get_dataTime())
         self.driver.switch_to.window(self.window_handles()[-1])
 
+    # 切换到指定的iframe
     def switch_to_frame(self, selector_object):
         """
         切换到指定的iframe
@@ -426,7 +427,26 @@ class BasePage:
         logger.info("%s Switch to the iframe" % get_dataTime())
         self.driver.switch_to.frame(selector_object)
 
+    # 切换回默认的主界面
+    def switch_to_default_content(self):
+        """ 切换回默认的iframe """
+        self.driver.switch_to.default_content()
+        # self.driver.switch_to_default_content()
+
+    # 切换到上级iframe
+    def switch_to_parent_frame(self):
+        """ 切换到上级iframe"""
+        self.driver.switch_to.parent_frame()
+
     # 刷新当前页面
+    def refresh(self):
+        """
+        刷新当前页面
+        :return:
+        """
+        logger.info("%s The page has been refreshed" % get_dataTime())
+        self.driver.refresh()
+
     def refresh(self):
         """
         刷新当前页面
@@ -538,6 +558,7 @@ class BasePage:
         except NoSuchElementException as e:
             logger.info("该元素没有被找到，不存在页面中,原因: %s" % e)
         return flag
+
 
 
 

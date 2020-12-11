@@ -18,14 +18,18 @@ def runAPI():
         if 'json' in one:
             os.remove(f'report/tmp/{one}')
 
-    pytest.main(['testcase', '-s', '--alluredir=report/tmp'])
+    pytest.main(['testcase/UI测试用例', '-s', '--alluredir=report/tmp'])
     os.system('allure serve report/tmp')
 
 if __name__ == '__main__':
     # demoPage = Demopage()
     # demoPage.find_ele()
-    pytest.main(["-s", "-k test_user.py"])
+    pytest.main(["-s", "-k test_customers.py"])
     # runAPI()
+
+
+
+
 
 
 
