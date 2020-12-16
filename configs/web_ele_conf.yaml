@@ -8,7 +8,7 @@ LoginPage:
   password: ["id", "password"]
   login_btn: ["css selector", ".loginItem .layui-form-item button"]
 
-
+#公共页面
 CommonPage:
   # 退出登录按钮
   logout_btn: ["id","logout"]
@@ -20,16 +20,26 @@ CommonPage:
   logout_cancel: ["css selector","div.layui-layer-dialog a.layui-layer-btn1"]
 
   # 待跟客户iframe
-  waittingCustomers_iframe: ["xpath", '//iframe[@src="pages/market/wait/wait.html"]']
+  waittingCustomersPage_iframe: ["xpath", '//iframe[@src="pages/market/wait/wait.html"]']
+  #  签约客户iframe
+  signedCustomersPage_iframe: ["xpath", '//iframe[@src="pages/market/sign/sign.html"]']
+
 
   # 首页概览
   homePagePreview: ["xpath", '//cite[contains(text(),"首页概览")]']
+
   # 客户管理
   customerManagement: ["xpath", '//cite[contains(text(),"客户管理")]']
   # 待跟客户
   waittingCustomers: ["xpath", '//cite[contains(text(),"待跟客户")]']
+  #  待跟客户tab的关闭icon x
+  waittingCustomersPage_close_icon: ["xpath",'//cite[contains(text(),"待跟客户")]/following-sibling::i[1]']
+
   # 签约客户
   signedCustomers: ["xpath", '//cite[contains(text(),"签约客户")]']
+  #  签约客户tab的关闭icon x
+  signedCustomersPage_close_icon: ["xpath",'//cite[contains(text(),"签约客户")]/following-sibling::i[1]']
+
   # 资质办理
   qualificationManagement: ["xpath", '//cite[contains(text(),"资质办理")]']
   # 公共资源
@@ -76,7 +86,7 @@ WaittingCustomersPage:
   #  来源渠道
 
   #  所在地区输入框
-  location_input: ["css selector"," #xmSelect div.xm-tips"]
+  location_input: ["css selector","#xmSelect div.xm-tips"]
   #  广东省
   province: ["xpath", '//div[contains(text(),"广东省")]']
   #  广州市
@@ -99,6 +109,7 @@ WaittingCustomersPage:
   keyword_input2: ["id", "wxQqEmail"]
   #  查找按钮
   search_btn: ["id", "search"]
+  WaittingCustomers_reset_btn: ["id", "reset"]
 
   #客户列表每一行
   WaittingCustomers_table_tr_locator: ["css selector",".layui-table-main tbody tr"]
@@ -113,9 +124,24 @@ WaittingCustomersPage:
   #  待跟客户列表页里的客户详情iframe
   customers_detail_iframe: ["xpath", '//iframe[@src="../../cmc/customer/detail.html"]']
 
+#签约客户列表页
+SignedCustomersPage:
+  path: pages/market/sign/sign.html
+  # 条件筛选
+  #  搜索输入框
+  SiCus_keyword_input: ["id", "cnOrPnOrPInp"]
+  #  查找按钮
+  SiCus_search_btn: ["id", "search"]
+  #  签约客户列表里的一行
+  SiCus_table_tr_locator: ["css selector",".layui-table-main tbody tr"]
+  #  签约客户列表行里的公司名称
+  SiCus_table_name_locator: ["css selector",".layui-table-main tbody td:nth-child(3)"]
+  #  客户详情页iframe
+  CustomersDetailPage_iframe: ["xpath", '//iframe[@src="../../cmc/customer/detail-pop-1.html"]']
 
 #客户详情页
-customersDetailPage:
+CustomersDetailPage:
+  path: ../../cmc/customer/detail-pop-1.html
   #  添加备注
   add_notes_btn: ["xpath", '//button[contains(text(),"添加备注")]']
   #  写新跟进
@@ -130,4 +156,82 @@ customersDetailPage:
   perfectOperate_btn: ["xpath", '//button[contains(text(),"完善合同")]']
   #  客户编辑
   editor_customer_btn: ["xpath", '//button[contains(text(),"客户编辑")]']
+  #  完善合同iframe
+  PerfectContractPage_iframe: ["xpath", '//iframe[@src="detail-pop-3.html"]']
+
+
+#完善合同页
+PerfectContractPage:
+  #  ===========================基本信息===============================
+  #  办理时效
+  PC_handleDays_input: ["xpath", '//input[@placeholder="办理时效（工作日），例如：60"]']
+  #  办理地区
+  PC_handlingArea_input: ["xpath", '//input[@placeholder="请选择地区"]']
+  #  第一个关键词输入框
+  PC_kw1_input: ["xpath", '//input[@placeholder="请输入关键词"]']
+  #  第一个关键词输入框
+  PC_kw2_input: ["xpath", '//input[@placeholder="请输入关键词"]']
+  #   广东省
+  PC_province: ["xpath", '//li[contains(text(),"广东省")]']
+  #  广州市
+  PC_guangzhouCity: ["xpath", '//li[contains(text(),"广州市")]']
+  #  客户签约人
+  PC_clientSigner_input: ["xpath",'//input[@placeholder="客户签约人"]']
+  #  我方签约人
+  PC_OurSigner_input: ["xpath", '//input[@placeholder="请选择签约人"]']
+  #  输入框输入王裕后，选择王裕
+  PC_OurSigner: ["xpath",'//span[contains(text(),"王裕")]']
+  #  签约时间
+  PC_signTimeStrInp: ["id", "signTimeStrInp"]
+  #  备注
+  PC_remarks_textarea: ["id","text_txt1"]
+  #  上传文件_按钮
+  PC_uploadFile_btn: ["id", "uploadFile"]
+  #  文件上传输入框(页面隐藏的控件)
+  PC_uploadFile_input: ["css selector", "input.layui-upload-file"]
+
+  #  ========================== 费用明细 ====================
+  #  项目性质
+  PC_projectNature_input: ["name", "projectNature"]
+  #  人才费（建造师）
+  PC_talConstructorMoney_input: ["name","talConstructorMoney"]
+  #  人才费（工程师）
+  PC_talEngineerMoney_input: ["name", "talEngineerMoney"]
+  #  人才费（技工）
+  PC_talArtisanMoney_input: ["name", "talArtisanMoney"]
+  #  人才费合计
+  PC_talMoney_input: ["name", "talMoney"]
+  #  社保费用
+  PC_socialSecurityMoney_input: ["name", "socialSecurityMoney"]
+  #  业务费
+  PC_teaMoney_input: ["name", "teaMoney"]
+  #  工商注册费
+  PC_industryRegisterMoney_input: ["name","industryRegisterMoney"]
+  #  安证ABC+插班/包过
+  PC_cerPackage_input: ["name","cerPackage"]
+  #  税费
+  PC_tax_input: ["name", "tax"]
+  #  其他费用（需备注事项）
+  PC_rest_input: ["name","rest"]
+  #  服务费
+  PC_serMoney_input: ["name", "serMoney"]
+  #  合同金额
+  PC_money_input: ["name","money"]
+  #  是否有赔款条约:请选择
+  PC_isReparations_input: ["xpath",'//*[@id="mount"]/div/form/div[2]/div/div[12]/div/div/div/input']
+  #   选择：否
+  PC_false_option: ["xpath", '//*[@id="mount"]/div/form/div[2]/div/div[12]/div/div/dl/dd[3]']
+
+#  ==========================回款计划==================================
+  #  回款金额1
+  PC_rp_repaymentMoney_0: ["name", "rp_repaymentMoney_0"]
+  #  回款备注1
+  PC_rp_remark_0: ["name", "rp_remark_0"]
+  #  回款比例1
+  PC_rp_repaymentProportion_0: ["name", "rp_repaymentProportion_0"]
+
+
+
+
+
 

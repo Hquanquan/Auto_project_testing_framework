@@ -9,7 +9,8 @@
 HOST = "http://192.168.0.173/crmViewX"
 
 # 用户信息
-userName = "15766245679"
+# userName = "13546859758"
+userName = "13569475865"
 password = "18819443338"
 
 # 显示等待超时时间
@@ -17,6 +18,6 @@ TimeOut = 10
 # 显示等待轮询时间
 PollFrequency = 0.5
 
-
+uploadFilePath = r"E:\image.jpg"
 
 

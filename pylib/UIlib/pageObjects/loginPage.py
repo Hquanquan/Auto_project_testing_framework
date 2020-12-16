@@ -4,11 +4,14 @@
 # @File : loginPage.py 
 # @Author  : 黄权权
 # @Software: PyCharm
-# @Desc    : None
+# @Desc    : 登录页
 from pylib.UIlib.pageObjects.basePage1 import BasePage
 
 
 class LoginPage(BasePage):
+    """
+    登录页
+    """
     # 方案一: 通过读取配置文件里的数据作为属性值,动态赋值
 
     # 方案二: 手动编辑赋值属性，硬编码

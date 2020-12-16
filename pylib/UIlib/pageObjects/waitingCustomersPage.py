@@ -1,7 +1,7 @@
 #!/usr/bin/python3.8
 # -*- coding: utf-8 -*-
 # @Time    : 2020/12/7 11:56
-# @File : waitingCustomers.py 
+# @File : waitingCustomersPage.py
 # @Author  : 黄权权
 # @Software: PyCharm
 # @Desc    : 待跟客户列表页
@@ -9,7 +9,6 @@ import time
 
 import allure
 
-from configs.web_env import HOST
 from pylib.UIlib.pageObjects.basePage1 import BasePage
 from utils.tools import create_Str, get_phone_num, write_yaml
 
@@ -32,10 +31,8 @@ class WaittingCustomersPage(BasePage):
         """
         # 点击创建客户按钮
         self.click(self.create_Cus_Btn)
-        # 找到iframe对象
-        iframe_obj = self.find_element(self.WaittingCustomers_iframe)
         # 切换到iframe
-        self.driver.switch_to.frame(iframe_obj)
+        self.switch_to_iframe(self.WaittingCustomers_iframe)
         # 随机生成客户信息，便于保存到配置文件,后续验证创建客户成功时需要用到客户信息
         customersInfo = {
             "name": create_Str("公司名称"),
@@ -97,7 +94,6 @@ class WaittingCustomersPage(BasePage):
             self.send_keys(self.keyword_input1, keyword)
         else:
             self.send_keys(self.keyword_input2, keyword)
-        time.sleep(2)
         # 点击查询按钮
         self.click(self.search_btn)
         return self
@@ -119,22 +115,25 @@ class WaittingCustomersPage(BasePage):
         }
         return costomersInfo
 
-    # 点击客户列表里的【详情】按钮
-    @allure.step("step: 【进入客户详情页】")
+    # 点击待跟客户列表里的【详情】按钮
+    @allure.step("step:点击待跟客户列表里的【详情】")
     def click_detail_btn(self):
-        """点击客户列表里的【详情】按钮,进入客户详情页"""
+        """点击待跟客户列表里的【详情】按钮,进入客户详情页"""
         # 找到一组详情按钮，其中下标为1的是准确的
         eles = self.find_elements(self.WaittingCustomers_table_detail_btn)
         eles[1].click()
+        # self.click(self.WaittingCustomers_table_detail_btn)
 
     # 切换到客户详情iframe
-    @allure.step("step: 【内部操作：切换到客户详情iframe】")
+    @allure.step("step:【内部操作:待跟客户列表页切换到客户详情iframe】")
     def switch_to_customers_datail_iframe(self):
-        """切换到客户详情iframe"""
-        myiframe_object = self.find_element(self.customers_detail_iframe)
-        self.driver.switch_to.frame(myiframe_object)
+        """内部操作:待跟客户列表页切换到客户详情iframe"""
+        self.switch_to_iframe(self.customers_detail_iframe)
 
-
+    @allure.step("step: 点击【重置】")
+    def click_reset_btn(self):
+        """ 点击【重置】 """
+        self.click(self.WaittingCustomers_reset_btn)
 
 
 

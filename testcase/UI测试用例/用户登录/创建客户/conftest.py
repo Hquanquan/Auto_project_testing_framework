@@ -4,54 +4,67 @@
 # @File : conftest.py 
 # @Author  : 黄权权
 # @Software: PyCharm
-# @Desc    : 当前系统已有客户
+# @Desc    : 初始化创建客户，提供新创建的客户信息
 import time
 
-import allure
 import pytest
-
-from pylib.UIlib.pageObjects.waitingCustomers import WaittingCustomersPage
+from pylib.UIlib.pageObjects.waitingCustomersPage import WaittingCustomersPage
 from utils.tools import read_yaml
 
-@pytest.fixture(scope="session")
-@allure.suite("step:【初始化创建客户】")
+
+
+@pytest.fixture()
 def init_customers(user_login):
     """
-    初始化创建客户
+    初始化，创建客户，提供客户进行签约
     :param user_login:
     :return:
     """
     commonPage = user_login[1]
-    waittingCustomers = WaittingCustomersPage()
-    # 点击进入待跟客户
+    waittingCustomersPage = WaittingCustomersPage()
+    # 点击客户管理
     commonPage.click_customerManagement()
+    # 点击待跟客户
     commonPage.click_waittingCustomers()
-    # 切换到对应的待跟客户iframe,进行创建客户
+    # 切换到对应的待跟客户iframe
     commonPage.switch_to_waittingCustomers_iframe()
-    waittingCustomers.createCustomers()
+    # 进行创建客户
+    waittingCustomersPage.createCustomers()
     # 创建完毕，自动关闭弹窗，等待3秒，防止弹窗未关闭就进行操作导致失败
     time.sleep(3)
-    customersInfo = read_yaml("configs/createCustomers.yaml")
-
-    # 刷新页面，重新进入待跟客户iframe
-    commonPage.refresh()
-    commonPage.switch_to_waittingCustomers_iframe()
     # 查找刚创建的客户
     #    获取刚才创建的客户信息
     customersInfo = read_yaml("configs/createCustomers.yaml")
+    # 关闭待跟客户tab,自动回到首页
+    commonPage.close_WaittingCustomersPage_tab()
+    # 返回需要的数据
+    yield commonPage, waittingCustomersPage, customersInfo
 
-    # name = customersInfo["customersInfo"]["name"]
-    # # 根据公司名称查找客户
-    # waittingCustomers.find_customers(name)
-    # # 获取查找结果的列表信息
-    # customersInfo = waittingCustomers.get_tables_costomersInfo()
 
-    # 待跟客户页面刷新,退出iframe
-    waittingCustomers.refresh()
-    # 点击首页
-    commonPage.click_homePagePreview()
 
-    yield commonPage, waittingCustomers, customersInfo
-
+@pytest.fixture(scope="session")
+def create_customers(user_login):
+    """
+    初始化，创建客户，提供客户进行签约
+    :param user_login:
+    :return:
+    """
+    commonPage = user_login[1]
+    waittingCustomersPage = WaittingCustomersPage()
+    # 点击进入待跟客户
+    commonPage.click_customerManagement()
+    commonPage.click_waittingCustomers()
+    # 切换到对应的待跟客户iframe
+    commonPage.switch_to_waittingCustomers_iframe()
+    # 进行创建客户
+    waittingCustomersPage.createCustomers()
+    # 创建完毕，自动关闭弹窗，等待3秒，防止弹窗未关闭就进行操作导致失败
+    time.sleep(3)
+    # 查找刚创建的客户
+    #    获取刚才创建的客户信息
+    customersInfo = read_yaml("configs/createCustomers.yaml")
+    # 关闭待跟客户tab,自动回到首页
+    commonPage.close_WaittingCustomersPage_tab()
+    yield commonPage, waittingCustomersPage, customersInfo
 
 

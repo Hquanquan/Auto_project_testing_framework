@@ -11,9 +11,10 @@ import pytest
 
 from pylib.UIlib.pageObjects.loginPage import LoginPage
 from pylib.UIlib.pageObjects.demoPage import Demopage
+from utils.tools import read_yaml
 
 
-def runAPI():
+def run():
     for one in os.listdir('report/tmp'):  # 列出对应文件夹的数据
         if 'json' in one:
             os.remove(f'report/tmp/{one}')
@@ -22,10 +23,9 @@ def runAPI():
     os.system('allure serve report/tmp')
 
 if __name__ == '__main__':
-    # demoPage = Demopage()
-    # demoPage.find_ele()
-    pytest.main(["-s", "-k test_customers.py"])
-    # runAPI()
+
+    pytest.main(["-s", "-k test_perfectContract.py "])
+    # run()
 
 
 

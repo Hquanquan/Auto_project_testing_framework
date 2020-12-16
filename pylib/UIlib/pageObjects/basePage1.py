@@ -4,7 +4,7 @@
 # @File : basePage1.py 
 # @Author  : 黄权权
 # @Software: PyCharm
-# @Desc    : 使用OP模式，读取yaml文件的方式获取页面元素
+# @Desc    : BasePage 基础页面，使用OP模式，读取yaml文件的方式获取页面元素
 import os
 import time
 
@@ -20,6 +20,9 @@ from utils.tools import read_yaml, get_dataTime
 
 logger = Logger(logger="BasePage").getlog()
 class BasePage:
+    """
+    BasePage基础页面
+    """
 
     def __init__(self, conf_path="configs/web_ele_conf.yaml"):
         """
@@ -40,10 +43,11 @@ class BasePage:
 
         for class_name in class_names:
             eles = read_yaml(conf_path)[class_name]
-            # eles的key作为属性名称，value作为属性值
-            for key in eles:
-                # self.__setattr__(属性名称key, 属性值eles[key]),动态生成对象属性
-                self.__setattr__(key, eles[key])
+            if eles:
+                # eles的key作为属性名称，value作为属性值
+                for key in eles:
+                    # self.__setattr__(属性名称key, 属性值eles[key]),动态生成对象属性
+                    self.__setattr__(key, eles[key])
 
     # 根据特定的表达式获取单个元素
     def find_element(self, selectors):
@@ -418,14 +422,15 @@ class BasePage:
         self.driver.switch_to.window(self.window_handles()[-1])
 
     # 切换到指定的iframe
-    def switch_to_frame(self, selector_object):
+    def switch_to_iframe(self, selector):
         """
         切换到指定的iframe
-        :param selector_object: 可以是iframe的唯一ID，唯一name，也可以是iframe的WebElement对象
+        :param selector: iframe的WebElement对象
         :return:
         """
+        iframe_object = self.find_element(selector)
+        self.driver.switch_to.frame(iframe_object)
         logger.info("%s Switch to the iframe" % get_dataTime())
-        self.driver.switch_to.frame(selector_object)
 
     # 切换回默认的主界面
     def switch_to_default_content(self):
@@ -444,16 +449,9 @@ class BasePage:
         刷新当前页面
         :return:
         """
-        logger.info("%s The page has been refreshed" % get_dataTime())
         self.driver.refresh()
+        logger.info("%s The page has been refreshed" % get_dataTime())
 
-    def refresh(self):
-        """
-        刷新当前页面
-        :return:
-        """
-        logger.info("%s The page has been refreshed" % get_dataTime())
-        self.driver.refresh()
 
     # 切换到弹窗窗口
     def switch_to_alert(self):
@@ -463,6 +461,7 @@ class BasePage:
         """
         logger.info("%s Switch to pop-up window" % get_dataTime())
         return self.driver.switch_to.alert()
+
 
     # 同步执行js脚本:execute_script为同步执行且执行时间较短。
     # WebDriver会等待同步执行的结果然后执行后续代码；

@@ -4,13 +4,16 @@
 # @File : commonPage.py
 # @Author  : 黄权权
 # @Software: PyCharm
-# @Desc    : None
+# @Desc    : 公共页面
 import allure
 
 from pylib.UIlib.pageObjects.basePage1 import BasePage
 
 
 class CommonPage(BasePage):
+    """
+    公共页面
+    """
 
     @allure.step("step:退出登录")
     def logout(self):
@@ -54,7 +57,7 @@ class CommonPage(BasePage):
         return self
 
     @allure.step("step:点击【签约客户】")
-    def click_signedCustomers(self):
+    def click_signedCustomersPage(self):
         """
         点击待跟客户
         :return:
@@ -140,11 +143,26 @@ class CommonPage(BasePage):
         切换到客户管理-待跟客户iframe
         :return:
         """
-        myiframe_object = self.find_element(self.waittingCustomers_iframe)
-        self.driver.switch_to.frame(myiframe_object)
+        self.switch_to_iframe(self.waittingCustomersPage_iframe)
 
+    @allure.step("step:（内部操作）切换到【签约客户的iframe】")
+    def switch_to_signedCustomersPage_iframe(self):
+        """
+        切换到客户管理-签约客户iframe
+        :return:
+        """
+        self.switch_to_iframe(self.signedCustomersPage_iframe)
 
+    # ======================= tab =====================
 
+    @allure.step("step: 【关闭待跟客户tab页】")
+    def close_WaittingCustomersPage_tab(self):
+        """ 【关闭待跟客户tab页】 """
+        self.click(self.waittingCustomersPage_close_icon)
 
+    @allure.step("step: 【关闭签约客户tab页】")
+    def close_SignedCustomersPage_tab(self):
+        """ 【关闭签约客户tab页】 """
+        self.click(self.signedCustomersPage_close_icon)
 
 

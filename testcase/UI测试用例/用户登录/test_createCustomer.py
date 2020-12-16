@@ -10,7 +10,7 @@ import time
 import allure
 import pytest
 
-from pylib.UIlib.pageObjects.waitingCustomers import WaittingCustomersPage
+from pylib.UIlib.pageObjects.waitingCustomersPage import WaittingCustomersPage
 from utils.tools import read_yaml
 
 @allure.epic("UI模块-CRM系统")
@@ -20,14 +20,15 @@ class TestCustomer:
     @pytest.fixture()
     def after_test_CreateCustomers(self, user_login):
         self.commonPage = user_login[1]
-        self.waittingCustomers = WaittingCustomersPage()
+        self.waittingCustomersPage = WaittingCustomersPage()
         yield
-        self.waittingCustomers.refresh()
+        self.waittingCustomersPage.refresh()
         self.commonPage.click_homePagePreview()
 
-    # @pytest.mark.skip("暂不执行")
+
     @allure.story("客户管理-待跟客户")
     @allure.title("创建客户")
+    # @pytest.mark.skip("暂不执行")
     def test_CreateCustomers(self, after_test_CreateCustomers):
         """
         当前账号没有客户，创建客户，预期结果，通过公司名称可查找到客户
@@ -39,7 +40,7 @@ class TestCustomer:
         self.commonPage.click_waittingCustomers()
         # 切换到对应的待跟客户iframe,进行创建客户
         self.commonPage.switch_to_waittingCustomers_iframe()
-        self.waittingCustomers.createCustomers()
+        self.waittingCustomersPage.createCustomers()
         # 创建完毕，自动关闭弹窗，等待3秒，防止弹窗未关闭就进行操作导致失败
         time.sleep(3)
         # 刷新页面，重新进入待跟客户iframe
@@ -50,7 +51,7 @@ class TestCustomer:
         customersInfo = read_yaml("configs/createCustomers.yaml")
         name = customersInfo["customersInfo"]["name"]
         # 根据公司名称查找客户
-        self.waittingCustomers.find_customers(name)
+        self.waittingCustomersPage.find_customers(name)
         # 获取查找结果的列表信息
-        messages = self.waittingCustomers.get_tables_costomersInfo()
+        messages = self.waittingCustomersPage.get_tables_costomersInfo()
         assert name == messages["name"]
