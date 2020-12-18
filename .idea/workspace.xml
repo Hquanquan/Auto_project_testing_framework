@@ -26,32 +26,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93d5fca4-f52b-4e87-abb0-f6c2924fc2dd" name="默认的" comment="webUI模块，第 2 次提交">
-      <change afterPath="$PROJECT_DIR$/docs/image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/perfectContractPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/signedCustomersPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/test_signCustomer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/签约客户/test_perfectContract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/签约客户/test_signCustomers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Auto_project_testing_framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Auto_project_testing_framework.iml" afterDir="false" />
+    <list default="true" id="93d5fca4-f52b-4e87-abb0-f6c2924fc2dd" name="默认的" comment="webUI模块，第 3 次提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/createCustomers.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/createCustomers.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/web_ele_conf.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/web_ele_conf.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/web_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/web_env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pylib/UIlib/pageObjects/basePage1.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/basePage1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pylib/UIlib/pageObjects/commonPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/commonPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pylib/UIlib/pageObjects/customersDetailPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/customersDetailPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pylib/UIlib/pageObjects/log/20201207161552.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pylib/UIlib/pageObjects/log/20201207174816.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pylib/UIlib/pageObjects/loginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/loginPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pylib/UIlib/pageObjects/waitingCustomers.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/waitingCustomersPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/test_customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/test_createCustomer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/test_customers.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/test_customers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/签约合同/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/签约客户/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/签约合同/test_contract_signed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pylib/UIlib/pageObjects/perfectContractPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/perfectContractPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/签约客户/test_perfectContract.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/签约客户/test_perfectContract.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +61,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../软件测试/松勤软件测试/RobotFramework框架/lesson1" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -305,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607670819285</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="webUI模块，第 3 次提交">
+      <created>1608084390077</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608084390077</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -357,7 +347,8 @@
     <MESSAGE value="api模块，第 5 次提交" />
     <MESSAGE value="webUI模块，第 1 次提交" />
     <MESSAGE value="webUI模块，第 2 次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="webUI模块，第 2 次提交" />
+    <MESSAGE value="webUI模块，第 3 次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="webUI模块，第 3 次提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607395379085">
@@ -368,30 +359,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="126" y="533" width="1736" height="857" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607935428105" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1606876779924">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1608257661825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606876779924" />
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608257661825" />
     <state x="805" y="417" key="Github.ShareDialog" timestamp="1606876526512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="805" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606876526512" />
-    <state width="1899" height="467" key="GridCell.Tab.0.bottom" timestamp="1608083787843">
+    <state width="1899" height="467" key="GridCell.Tab.0.bottom" timestamp="1608273169927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="467" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608083787843" />
-    <state width="1899" height="467" key="GridCell.Tab.0.center" timestamp="1608083787843">
+    <state width="1899" height="467" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608273169927" />
+    <state width="1899" height="467" key="GridCell.Tab.0.center" timestamp="1608273169927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="467" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608083787843" />
-    <state width="1899" height="467" key="GridCell.Tab.0.left" timestamp="1608083787843">
+    <state width="1899" height="467" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608273169927" />
+    <state width="1899" height="467" key="GridCell.Tab.0.left" timestamp="1608273169927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="467" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608083787843" />
-    <state width="1899" height="467" key="GridCell.Tab.0.right" timestamp="1608083787843">
+    <state width="1899" height="467" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608273169927" />
+    <state width="1899" height="467" key="GridCell.Tab.0.right" timestamp="1608273169927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="467" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608083787843" />
+    <state width="1899" height="467" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608273169927" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1607759572768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -408,14 +399,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607759572768" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1608126734882">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608126734882" />
     <state x="812" y="432" key="VCS.ChangelistChooser" timestamp="1607935322765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="812" y="432" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607935322765" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1607670826283">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1608084393875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607670826283" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608084393875" />
     <state x="773" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606903586874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -428,10 +423,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="803" y="291" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607421813070" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607928752598">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608264059188">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607928752598" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608264059188" />
     <state x="719" y="203" key="svn.repositoryBrowser" timestamp="1606876540526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

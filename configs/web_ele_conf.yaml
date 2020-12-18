@@ -142,6 +142,10 @@ SignedCustomersPage:
 #客户详情页
 CustomersDetailPage:
   path: ../../cmc/customer/detail-pop-1.html
+
+  #  合同状态
+  contractStatus_span: ["css selector","#topMount .layui-card-header span:nth-child(2)"]
+
   #  添加备注
   add_notes_btn: ["xpath", '//button[contains(text(),"添加备注")]']
   #  写新跟进
@@ -230,8 +234,39 @@ PerfectContractPage:
   #  回款比例1
   PC_rp_repaymentProportion_0: ["name", "rp_repaymentProportion_0"]
 
+# 资质配置
+  #  我司提供人数，所有输入框的集合
+  PC_quaX_needNum_inputs: ["xpath",'//input[contains(@name,"quaX_needNum_")]']
+  #  客户提供人数，所有输入框的集合
+  PC_quaX_provideNum_inputs: ["xpath",'//input[contains(@name,"quaX_provideNum_")]']
 
+#安证配置
+  #添加一行 按钮
+  PC_cerAddBtn: ["id","cerAddBtn"]
+  #  安证配置里的每一行
+  PC_table_tr_locators: ["xpath", '//*[@id="mount"]/div/form/div[7]/div[2]/div[2]/div/div[2]/table/tbody/tr']
 
+  #  第二行第一列的人才类型选择器
+  PC_cer_personnelType_select: ["xpath",'//*[@id="mount"]/div/form/div[7]/div[2]/div[2]/div/div[2]/table/tbody/tr[2]/td[2]/div/div/div/input']
+  #  下拉选择框：建造师
+  PC_cer_personnelType_builder: ["xpath",'//*[@id="mount"]/div/form/div[7]/div[2]/div[2]/div/div[2]/table/tbody/tr[2]/td[2]/div[1]/div/dl/dd[9]']
+  #  第二行社保提供方
+  PC_cer_buySafeProvider_select: ["xpath",'//*[@id="mount"]/div/form/div[7]/div[2]/div[2]/div/div[2]/table/tbody/tr[2]/td[9]/div/div/div/input']
+   #  下拉选择框：客户
+  PC_cer_buySafeProvider: ["xpath", '//*[@id="mount"]/div/form/div[7]/div[2]/div[2]/div/div[2]/table/tbody/tr[2]/td[9]/div/div/dl/dd[2]']
+
+  #  第二行我方提供数
+  PC_cer_oneProvideNum_1: ["name","cer_oneProvideNum_1"]
+  #  第二行客户提供数
+  PC_cer_needNum_1: ["name","cer_needNum_1"]
+
+  #  我方提供数，所有输入框的集合
+  PC_cer_needNum_inputs: ["xpath",'//input[contains(@name,"cer_needNum_")]']
+  #  客户提供数，所有输入框的集合
+  PC_cer_oneProvideNum_inputs: ["xpath",'//input[contains(@name,"cer_oneProvideNum_")]']
+
+  #  保存信息 按钮
+  PC_save_btn: ["xpath", '//button[@lay-filter="save"]']
 
 
 

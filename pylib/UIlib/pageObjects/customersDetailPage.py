@@ -32,6 +32,13 @@ class CustomersDetailPage(BasePage):
         """【内部操作:客户详情页切换到完善合同页的iframe】 """
         self.switch_to_iframe(self.PerfectContractPage_iframe)
 
+    # 获取合同状态（文案）
+    def get_contractStatus(self):
+        """
+        获取详情页里的合同状态（文案）
+        :return:
+        """
+        return self.get_element_text(self.contractStatus_span)
 
 
 

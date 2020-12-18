@@ -78,7 +78,6 @@ class PerfectContractPage(BasePage):
         ele = self.find_element(self.PC_uploadFile_input)
         ele.send_keys(path)
 
-
     @allure.step("step: 编辑完善合同页的基本信息")
     def edit_basicInformation(self):
         """
@@ -147,6 +146,55 @@ class PerfectContractPage(BasePage):
         self.send_keys(self.PC_rp_repaymentMoney_0, 100000)
         # 回款备注
         self.send_keys(self.PC_rp_remark_0, "回款备注：xxx")
+
+    # 资质配置
+    @allure.step("step: 资质配置")
+    def edit_qualificationConfiguration(self):
+        """
+        资质配置，只填写我司提供人数和客户提供人数，其他暂时不填
+        :return:
+        """
+        # 循环遍历填写提供人数
+        quaX_needNum_inputs_eles = self.find_elements(self.PC_quaX_needNum_inputs)
+        quaX_provideNum_inputs_eles = self.find_elements(self.PC_quaX_provideNum_inputs)
+        # 遍历输入我司提供人数：2
+        self.forEach_send_keys(quaX_needNum_inputs_eles, "2")
+        # 遍历输入客户提供人数：2
+        self.forEach_send_keys(quaX_provideNum_inputs_eles, "2")
+
+    # 安证配置
+    @allure.step("step: 安证配置")
+    def edit_cerConfiguration(self):
+        """
+        安证配置,新增一行建造师
+        :return:
+        """
+        # 点击添加一行
+        self.click(self.PC_cerAddBtn)
+
+        #  第二行第一列的人才类型选择器
+        self.click(self.PC_cer_personnelType_select)
+        #  下拉选择框：建造师
+        self.click(self.PC_cer_personnelType_builder)
+        #  第二行社保提供方
+        self.click(self.PC_cer_buySafeProvider_select)
+        #  下拉选择框：客户
+        self.click(self.PC_cer_buySafeProvider)
+
+        # 我方提供数
+        self.send_keys(self.PC_cer_oneProvideNum_1, "2")
+        # 客户提供数
+        self.send_keys(self.PC_cer_needNum_1, "2")
+
+    @allure.step("step: 点击【保存信息】")
+    def click_saveBtn(self):
+        """
+        点击完善合同页的保存信息按钮
+        :return:
+        """
+        self.click(self.PC_save_btn)
+
+
 
 
 

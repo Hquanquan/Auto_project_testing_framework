@@ -6,7 +6,6 @@
 # @Software: PyCharm
 # @Desc    : BasePage 基础页面，使用OP模式，读取yaml文件的方式获取页面元素
 import os
-import time
 
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver import ActionChains
@@ -327,6 +326,32 @@ class BasePage:
             logger.error("%s Failed to type in input box with %s" % (get_dataTime(), e))
             self.get_windows_img()
 
+    def get_element_text(self, selector):
+        """
+        获取元素的文本值
+        :param selector:
+        :return:
+        """
+        ele = self.find_element(selector)
+        return ele.text
+
+
+    def forEach_send_keys(self, selector_objects, text):
+        """
+        遍历输入
+        :param selector_objects:
+        :param text:
+        :return:
+        """
+        for ele in selector_objects:
+            ele.clear()  # 文本框清空
+            try:
+                ele.send_keys(text)  # 输入文本信息
+                logger.info("%s Had type \' %s \' in inputBox" % (get_dataTime(), text))
+            except NameError as e:
+                logger.error("%s Failed to type in input box with %s" % (get_dataTime(), e))
+                self.get_windows_img()
+
     # Text clear 文本框清空 selector:元素位置
     def clear(self, selector):
         """
@@ -352,7 +377,7 @@ class BasePage:
         el = self.find_element(selector)  # 获取元素位置信息
         try:
             el.click()
-            logger.info("%s The emement was click" % get_dataTime())  # 并不是每个元素都存在 text 属性
+            logger.info("%s The element was click" % get_dataTime())  # 并不是每个元素都存在 text 属性
         except NameError as e:
             logger.error("%s Failed to type in input box with %s" % (get_dataTime(), e))
             self.get_windows_img()

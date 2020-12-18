@@ -43,7 +43,8 @@ class TestContract:
         # 【内部操作：签约客户列表页切换到客户详情iframe】
         self.customersDetailPage.switch_to_perfectContractPage_iframe()
         yield
-
+        self.customersDetailPage.switch_to_default_content()
+        self.commonPage.close_SignedCustomersPage_tab()
 
     @allure.story("客户管理-签约客户")
     @allure.title("完善合同")
@@ -54,9 +55,23 @@ class TestContract:
         self.perfectContractPage.edit_costDetail()
         # 编辑回款计划
         self.perfectContractPage.edit_paymentPlan()
-        input()
+        # 编辑资质配置
+        self.perfectContractPage.edit_qualificationConfiguration()
+        # 编辑安证配置
+        self.perfectContractPage.edit_cerConfiguration()
+        # 点击保存信息按钮
+        self.perfectContractPage.click_saveBtn()
+        time.sleep(1)
+        # =========== 切换iframe 否则无法获取元素===============
+        # 回到默认的iframe
+        self.perfectContractPage.switch_to_default_content()
+        # 切换iframe到签约客户列表页iframe
+        self.commonPage.switch_to_signedCustomersPage_iframe()
+        # 切换iframe到客户详情页
+        self.signedCustomersPage.switch_to_CustomersDetailPage_iframe()
+        # 断言
+        assert self.customersDetailPage.get_contractStatus() == "等待首款回款"
 
 
-        pass
 
 
