@@ -12,7 +12,7 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from configs.web_env import TimeOut, PollFrequency
+from configs.web_env import TimeOut, PollFrequency, uploadFilePath
 from logs.logger import Logger
 from pylib.UIlib.common.webDriver import Driver
 from utils.tools import read_yaml, get_dataTime
@@ -582,6 +582,17 @@ class BasePage:
         except NoSuchElementException as e:
             logger.info("该元素没有被找到，不存在页面中,原因: %s" % e)
         return flag
+
+    # 通过input标签上传文件
+    def uploadFile_to_input(self, selector, path=uploadFilePath):
+        """
+        通过input元素标签上传文件
+        :param selector: 元素
+        :param path: 路径默认值
+        :return:
+        """
+        ele = self.find_element(selector)
+        ele.send_keys(path)
 
 
 

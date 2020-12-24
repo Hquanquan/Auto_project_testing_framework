@@ -5,18 +5,8 @@
 # @Author  : 黄权权
 # @Software: PyCharm
 # @Desc    : None
-
-
-# ID = "id"
-# XPATH = "xpath"
-# LINK_TEXT = "link text"
-# PARTIAL_LINK_TEXT = "partial link text"
-# NAME = "name"
-# TAG_NAME = "tag name"
-# CLASS_NAME = "class name"
-# CSS_SELECTOR = "css selector"
 import yaml
-
+import random
 from utils.tools import get_dataTime, read_yaml
 
 ID = "id"
@@ -28,7 +18,7 @@ TAG_NAME = "tag name"
 CLASS_NAME = "class name"
 CSS_SELECTOR = "css selector"
 
-import random
+
 
 
 def create_phone():
@@ -99,4 +89,3 @@ if __name__ == '__main__':
 
     a = read_yaml("configs/createCustomers.yaml")
     print(a)
-

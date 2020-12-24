@@ -143,7 +143,7 @@ SignedCustomersPage:
 CustomersDetailPage:
   path: ../../cmc/customer/detail-pop-1.html
 
-  #  合同状态
+  #  合同状态文案
   contractStatus_span: ["css selector","#topMount .layui-card-header span:nth-child(2)"]
 
   #  添加备注
@@ -162,6 +162,33 @@ CustomersDetailPage:
   editor_customer_btn: ["xpath", '//button[contains(text(),"客户编辑")]']
   #  完善合同iframe
   PerfectContractPage_iframe: ["xpath", '//iframe[@src="detail-pop-3.html"]']
+  #  已收回款
+  CDP_returnOperate_btn: ["xpath", '//button[contains(text(),"已收回款")]']
+  #  已收回款iframe
+  CDP_returnOperate_iframe: ["xpath", '//iframe[@src="detail-pop-6.html"]']
+
+  #  ======================= 已收回款弹窗元素 ============================
+  #  添加文件按钮
+  CDP_uploadFile_btn: ["id","uploadFile"]
+  #  上传文件的输入框(隐藏的)
+  CDP_uploadFile_input: ["css selector","#uploadFile + input"]
+
+  #  金额输入框
+  CDP_recober_money_0_input: ["name", "recober_money_0"]
+  #  回款时间输入框
+  CDP_recTimeInp_input: ["id", "recTimeInp"]
+  #  备注输入框
+  CDP_recRemark_input: ["id", "recRemark"]
+  #  收款账号
+  CDP_account_input: ["xpath", '//input[@placeholder="请选择收款账户"]']
+  #  选择第二个有效值
+  CDP_account_options: ["css selector",' #mount div.layui-form-item dl.layui-anim-upbit dd:nth-child(2)']
+  #  审批人选择框
+  CDP_treeSelect_input: ["xpath", '//input[contains(@id,"treeSelect-input-")]']
+  #  审批人选择：admin
+  CDP_approver: ["xpath", '//span[contains(text(),"admin")]']
+  #  确定按钮
+  CDP_comfirm_btn: ["xpath",'//button[@class="layui-btn" and @lay-filter="comfirm"]']
 
 
 #完善合同页

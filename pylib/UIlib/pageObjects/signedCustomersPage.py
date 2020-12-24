@@ -40,7 +40,7 @@ class SignedCustomersPage(BasePage):
         costomersName = self.find_element(self.SiCus_table_name_locator).text
         return costomersName
 
-    @allure.step("step:【进入客户详情】")
+    @allure.step("step:点击【详情】进入客户详情页")
     def enter_customerDetail(self):
         """
         进入客户详情

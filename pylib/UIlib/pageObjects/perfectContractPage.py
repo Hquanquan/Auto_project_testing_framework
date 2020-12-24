@@ -72,11 +72,13 @@ class PerfectContractPage(BasePage):
         self.send_keys(self.PC_remarks_textarea, text)
 
     @allure.step("step:上传附件")
-    def uploadFile(self, path=uploadFilePath):
-        """ 上传附件 """
-        # 上传附件
-        ele = self.find_element(self.PC_uploadFile_input)
-        ele.send_keys(path)
+    def uploadFile(self):
+        """
+        上传附件 ，
+        默认上传 E:\image.jpg
+        :return:
+        """
+        self.uploadFile_to_input(self.PC_uploadFile_input)
 
     @allure.step("step: 编辑完善合同页的基本信息")
     def edit_basicInformation(self):
@@ -135,8 +137,6 @@ class PerfectContractPage(BasePage):
         self.click(self.PC_isReparations_input)
         self.click(self.PC_false_option)
 
-        pass
-
     @allure.step("step: 编辑回款计划")
     def edit_paymentPlan(self):
         """编辑回款计划"""
@@ -193,8 +193,3 @@ class PerfectContractPage(BasePage):
         :return:
         """
         self.click(self.PC_save_btn)
-
-
-
-
-
