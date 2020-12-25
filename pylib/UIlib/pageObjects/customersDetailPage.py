@@ -5,6 +5,8 @@
 # @Author  : 黄权权
 # @Software: PyCharm
 # @Desc    : 客户详情页
+import time
+
 import allure
 
 from pylib.UIlib.pageObjects.basePage1 import BasePage
@@ -82,14 +84,14 @@ class CustomersDetailPage(BasePage):
         """
         self.send_keys(self.CDP_recTimeInp_input, time)
 
-    @allure.step("step: 输入回款备注")
-    def send_CDP_recRemark(self, text=create_Str("回款备注")):
+    @allure.step("step: 输入备注")
+    def send_CDP_recRemark(self, text="回款备注"):
         """
         已收回款弹窗：回款备注
         :param text:  默认：回款备注+当前时间
         :return:
         """
-        self.send_keys(self.CDP_recRemark_input, text)
+        self.send_keys(self.CDP_recRemark_input, create_Str(text))
 
     @allure.step("step: 选择回款账户")
     def select_paymentAccount(self):
@@ -100,15 +102,57 @@ class CustomersDetailPage(BasePage):
         self.click(self.CDP_account_input)
         self.click(self.CDP_account_options)
 
-    @allure.step("step: 选择审批人")
-    def select_CDP_approver(self):
+    @allure.step("step: 审批节点：admin")
+    def select_CDP_Approver(self, approver="admin", number=1):
         """
-        选择审批人
+        回款审批,分公司,区域，营销总经理审批节点都选择admin
+        :param approver:
+        :param number: number=1代表分公司，number=2代表区域，number=3代表营销总经理
         :return:
         """
+        if number == 1:
+            self.click(self.CDP_branchesApproval_node)
+        elif number == 2:
+            self.click(self.CDP_regionApproval_node)
+        elif number == 3:
+            self.click(self.CDP_marketingManagerApproval_node)
+
         self.click(self.CDP_treeSelect_input)
-        self.send_keys(self.CDP_treeSelect_input, "admin")
-        self.click(self.CDP_approver)
+        self.send_keys(self.CDP_treeSelect_input, approver)
+        self.click(self.CDP_Approver)
+
+    @allure.step("step: 选择总经理审批节点：陆文彬")
+    def select_CDP_managingDirectorApprover(self, approver="陆文彬"):
+        """
+        回款审批,选择总经理审批节点：陆文彬
+        :param approver:
+        :return:
+        """
+        # 选择总经理审批节点
+        self.click(self.CDP_managingDirectorApproval_node)
+        # 点击一下输入框
+        self.click(self.CDP_treeSelect_input)
+        # 输入框中输入：陆文彬
+        self.send_keys(self.CDP_treeSelect_input, approver)
+        # 点击选择陆文彬
+        self.click(self.CDP_managingDirectorApprover)
+
+
+    @allure.step("step: 选择财务审批节点：吴小玉")
+    def select_CDP_financeApprover(self, approver="吴小玉"):
+        """
+        回款审批,选择财务审批节点：吴小玉
+        :param approver:
+        :return:
+        """
+        # 选择财务审批节点
+        self.click(self.CDP_financeApproval_node)
+        # 点击一下输入框
+        self.click(self.CDP_treeSelect_input)
+        # 输入框中输入：吴小玉
+        self.send_keys(self.CDP_treeSelect_input, approver)
+        # 点击选择吴小玉
+        self.click(self.CDP_financeApprover)
 
     @allure.step("step: 点击【确定】")
     def click_comfirmBtn(self):
@@ -117,3 +161,52 @@ class CustomersDetailPage(BasePage):
         :return:
         """
         self.click(self.CDP_comfirm_btn)
+
+    # ======================回款审批操作===============================
+
+    @allure.step("step: 点击【回款审批】")
+    def click_paymentApproval_btn(self):
+        """
+        客户详情页，点击【回款审批】，弹出窗口
+        :return:
+        """
+        self.click(self.paymentApproval_btn)
+
+    @allure.step("step: 回款审批时填写审批信息")
+    def send_CDP_recRemark1(self, text="审批通过"):
+        """
+        回款审批时填写审批信息
+        :param text:
+        :return:
+        """
+        self.send_keys(self.CDP_approvalRemark_textarea, create_Str(text))
+
+    @allure.step("step: 点击回款审批弹窗的【确定】按钮")
+    def click_CDP_comfirm_btn1(self):
+        """
+        点击回款审批弹窗的【确定】按钮
+        :return:
+        """
+        self.click(self.CDP_comfirm_btn1)
+
+    @allure.step("step: 输入【立项时间】")
+    def send_CDP_proAppTime(self):
+        """
+        输入立项时间，默认选择当月
+        :return:
+        """
+        self.click(self.CDP_proAppTime_input)
+        self.send_keys(self.CDP_proAppTime_input, get_dataTime(time_formate="%Y-%m"))
+    # 选择通过
+    def select_CDP_pass(self):
+        """
+        选择通过
+        :return:
+        """
+        self.click(self.CDP_pass)
+
+
+
+
+
+

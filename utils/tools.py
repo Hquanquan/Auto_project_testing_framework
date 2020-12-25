@@ -94,9 +94,9 @@ def create_Str(text):
 
 
 if __name__ == '__main__':
-    data = read_yaml(r"../configs/api_conf.yaml")
-    print(get_phone_num())
-    print(create_Str("公司名称"))
-
+    # data = read_yaml(r"../configs/api_conf.yaml")
+    # print(get_phone_num())
+    # print(create_Str("公司名称"))
+    print(get_dataTime(time_formate="%Y-%m"))
 
 

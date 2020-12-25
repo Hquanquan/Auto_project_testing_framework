@@ -90,6 +90,11 @@ class PerfectContractPage(BasePage):
         self.select_area()
         # 输入办理时效
         self.send_keys_handleDays("120")
+
+        # 回款期数选择3期
+        self.click(self.PC_repaymentPeriod_input)
+        self.click(self.PC_repaymentPeriod_number)
+
         # 输入客户签约人
         self.send_keys_clientSigner()
         # 选择我方签约人:王裕
@@ -140,12 +145,27 @@ class PerfectContractPage(BasePage):
     @allure.step("step: 编辑回款计划")
     def edit_paymentPlan(self):
         """编辑回款计划"""
-        # 回款比例 100
-        self.send_keys(self.PC_rp_repaymentProportion_0, 100)
-        # 回款金额 100000
-        self.send_keys(self.PC_rp_repaymentMoney_0, 100000)
+        # 回款比例 60
+        self.send_keys(self.PC_rp_repaymentProportion_0, 60)
+        # 回款金额 60000
+        self.send_keys(self.PC_rp_repaymentMoney_0, 60000)
         # 回款备注
         self.send_keys(self.PC_rp_remark_0, "回款备注：xxx")
+
+        # 回款比例 20
+        self.send_keys(self.PC_rp_repaymentProportion_1, 20)
+        # 回款金额 20000
+        self.send_keys(self.PC_rp_repaymentMoney_1, 20000)
+        # 回款备注
+        self.send_keys(self.PC_rp_remark_1, "回款备注：xxx")
+
+        # 回款比例 20
+        self.send_keys(self.PC_rp_repaymentProportion_2, 20)
+        # 回款金额 20000
+        self.send_keys(self.PC_rp_repaymentMoney_2, 20000)
+        # 回款备注
+        self.send_keys(self.PC_rp_remark_2, "回款备注：xxx")
+
 
     # 资质配置
     @allure.step("step: 资质配置")

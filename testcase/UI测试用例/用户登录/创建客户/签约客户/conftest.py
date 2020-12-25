@@ -4,7 +4,7 @@
 # @File : conftest.py 
 # @Author  : 黄权权
 # @Software: PyCharm
-# @Desc    : None
+# @Desc    : 签约客户
 import pytest
 
 from pylib.UIlib.pageObjects.customersDetailPage import CustomersDetailPage

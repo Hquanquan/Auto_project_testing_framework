@@ -36,15 +36,15 @@ class TestPaymentCollectionApproval:
         # 上传回款图片
         self.customersDetailPage.uploadFile_CDP_uploadFile()
         # 输入回款金额
-        self.customersDetailPage.send_CDP_recober_money(100000)
+        self.customersDetailPage.send_CDP_recober_money(60000)
         # 输入回款时间
         self.customersDetailPage.send_CDP_recTime()
         # 输入回款备注
         self.customersDetailPage.send_CDP_recRemark()
         # 选择回款账户
         self.customersDetailPage.select_paymentAccount()
-        # 选择审批人
-        self.customersDetailPage.select_CDP_approver()
+        # 分公司负责人审批节点选择审批人admin
+        self.customersDetailPage.select_CDP_Approver()
         # 点击确定按钮
         self.customersDetailPage.click_comfirmBtn()
         time.sleep(2)
@@ -59,4 +59,17 @@ class TestPaymentCollectionApproval:
         self.signedCustomersPage.switch_to_CustomersDetailPage_iframe()
         # 断言
         assert self.customersDetailPage.get_contractStatus() == "等待回款审批（分公司负责人-->admin）"
+
+
+
+
+
+
+
+
+
+
+
+
+
 

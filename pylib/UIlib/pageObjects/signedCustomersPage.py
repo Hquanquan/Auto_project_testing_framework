@@ -53,7 +53,12 @@ class SignedCustomersPage(BasePage):
         """【内部操作：签约客户列表页切换到客户详情iframe】"""
         self.switch_to_iframe(self.CustomersDetailPage_iframe)
 
-
-
+    @allure.step("step:点击【待我审批】切换tab")
+    def switch_to_SiCus_Wait_for_me_approval_tab(self):
+        """
+        切换到【待我审批】tab
+        :return:
+        """
+        self.click(self.SiCus_Wait_for_me_approval_tab)
 
 

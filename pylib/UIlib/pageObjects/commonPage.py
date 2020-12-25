@@ -97,6 +97,16 @@ class CommonPage(BasePage):
             self.click(self.financialManagement)
         return self
 
+    @allure.step("step:点击【回款审批】")
+    def click_paymentApproval(self):
+        """
+        点击回款审批
+        :return:
+        """
+        if self.isdispaly(self.paymentApproval):
+            self.click(self.paymentApproval)
+        return self
+
     @allure.step("step:点击【客服管理】")
     def click_CustomerServiceManagement(self):
         """
@@ -153,6 +163,14 @@ class CommonPage(BasePage):
         """
         self.switch_to_iframe(self.signedCustomersPage_iframe)
 
+    @allure.step("step:（内部操作）切换到财务管理-【回款审批】iframe")
+    def switch_to_financeManagement_paymentApproval_iframe(self):
+        """
+        切换到财务管理-回款审批iframe
+        :return:
+        """
+        self.switch_to_iframe(self.financeManagement_paymentApproval_iframe)
+
     # ======================= tab =====================
 
     @allure.step("step: 【关闭待跟客户tab页】")
@@ -165,4 +183,7 @@ class CommonPage(BasePage):
         """ 【关闭签约客户tab页】 """
         self.click(self.signedCustomersPage_close_icon)
 
-
+    @allure.step("step: 【关闭回款审批tab页】")
+    def close_SignedCustomersPage_tab(self):
+        """ 【关闭回款审批tab页】 """
+        self.click(self.paymentApprovalPage_close_icon)

@@ -9,6 +9,7 @@ import os
 
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver import ActionChains
+from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -593,6 +594,24 @@ class BasePage:
         """
         ele = self.find_element(selector)
         ele.send_keys(path)
+
+    # 下拉框选择
+    def select_option(self, selectot, index=None, value=None, text=None):
+        """
+        下拉框选择
+        :param selectot:    select元素定位表达式
+        :param index:   index定位
+        :param value:   value定位
+        :param text:    文本属性定位
+        :return:
+        """
+        ele = self.find_element(selectot)
+        if index:
+            Select(ele).select_by_index(index).click()
+        elif value:
+            Select(ele).select_by_value(value).click()
+        elif text:
+            Select(ele).select_by_visible_text(text).click()
 
 
 

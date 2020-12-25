@@ -2,7 +2,7 @@
 
 BasePage:
 
-
+#登录页面
 LoginPage:
   username: ["id", "username"]
   password: ["id", "password"]
@@ -23,7 +23,8 @@ CommonPage:
   waittingCustomersPage_iframe: ["xpath", '//iframe[@src="pages/market/wait/wait.html"]']
   #  签约客户iframe
   signedCustomersPage_iframe: ["xpath", '//iframe[@src="pages/market/sign/sign.html"]']
-
+  #  财务管理-回款审批iframe
+  financeManagement_paymentApproval_iframe: ["xpath", '//iframe[@src="pages/finance/approval/approval.html"]']
 
   # 首页概览
   homePagePreview: ["xpath", '//cite[contains(text(),"首页概览")]']
@@ -40,12 +41,19 @@ CommonPage:
   #  签约客户tab的关闭icon x
   signedCustomersPage_close_icon: ["xpath",'//cite[contains(text(),"签约客户")]/following-sibling::i[1]']
 
+
   # 资质办理
   qualificationManagement: ["xpath", '//cite[contains(text(),"资质办理")]']
   # 公共资源
   publicResource: ["xpath", '//cite[contains(text(),"公共资源")]']
   # 财务管理
   financialManagement: ["xpath", '//cite[contains(text(),"财务管理")]']
+  #  回款审批
+  paymentApproval: ["xpath", '//cite[contains(text(),"回款审批")]']
+  #  回款审批tab的关闭icon x
+  paymentApprovalPage_close_icon: ["xpath",'//cite[contains(text(),"回款审批")]/following-sibling::i[1]']
+
+
   # 客服管理
   CustomerServiceManagement: ["xpath", '//cite[contains(text(),"客服管理")]']
   # 数据统计
@@ -55,7 +63,6 @@ CommonPage:
   # 系统设置
   SystemSettings: ["xpath", '//cite[contains(text(),"系统设置")]']
 
-
 # 待跟客户列表页
 WaittingCustomersPage:
   path: pages/market/wait/wait.html
@@ -63,8 +70,7 @@ WaittingCustomersPage:
   #  添加客户的iframe
   WaittingCustomers_iframe: ["id", "layui-layer-iframe2"]
 
-#  创建客户相关
-
+  #  =============== 创建客户相关 =============
   #  公司名称输入框
   companyName_input: ["xpath", '//input[@type="text" and @placeholder="公司名称"]']
   #  联系电话输入框
@@ -102,7 +108,7 @@ WaittingCustomersPage:
   #  信息保存
   saveInformationBtn: ["css selector", "#mount .layui-btn"]
 
-# 查找客户相关
+  # ===================== 查找客户相关 ====================
   #  名称、联系人、联系电话 输入框
   keyword_input1: ["id", "cnOrPnOrPInp"]
   #  QQ、微信、邮箱
@@ -127,11 +133,16 @@ WaittingCustomersPage:
 #签约客户列表页
 SignedCustomersPage:
   path: pages/market/sign/sign.html
-  # 条件筛选
+  # ======================== 条件筛选 ====================
   #  搜索输入框
   SiCus_keyword_input: ["id", "cnOrPnOrPInp"]
   #  查找按钮
   SiCus_search_btn: ["id", "search"]
+  # ====================== tab ===========================
+  #  待我审批tab
+  SiCus_Wait_for_me_approval_tab: ["xpath", '//li[contains(text(),"待我审批")]']
+
+  # ========================列表数据信息================================
   #  签约客户列表里的一行
   SiCus_table_tr_locator: ["css selector",".layui-table-main tbody tr"]
   #  签约客户列表行里的公司名称
@@ -139,13 +150,14 @@ SignedCustomersPage:
   #  客户详情页iframe
   CustomersDetailPage_iframe: ["xpath", '//iframe[@src="../../cmc/customer/detail-pop-1.html"]']
 
+
 #客户详情页
 CustomersDetailPage:
   path: ../../cmc/customer/detail-pop-1.html
-
   #  合同状态文案
   contractStatus_span: ["css selector","#topMount .layui-card-header span:nth-child(2)"]
-
+  #  回款审批
+  paymentApproval_btn: ["xpath", '//button[contains(text(),"回款审批")]']
   #  添加备注
   add_notes_btn: ["xpath", '//button[contains(text(),"添加备注")]']
   #  写新跟进
@@ -183,17 +195,51 @@ CustomersDetailPage:
   CDP_account_input: ["xpath", '//input[@placeholder="请选择收款账户"]']
   #  选择第二个有效值
   CDP_account_options: ["css selector",' #mount div.layui-form-item dl.layui-anim-upbit dd:nth-child(2)']
+  #  已收回款弹窗的确定按钮
+  CDP_comfirm_btn: ["xpath",'//button[@class="layui-btn" and @lay-filter="comfirm"]']
+
+
+  #  分公司负责人审批: admin
+  CDP_branchesApproval_node: ["xpath", '//div[contains(text(),"分公司负责人审批")]']
+  #  区域负责人审批: admin
+  CDP_regionApproval_node: ["xpath", '//div[contains(text(),"区域负责人审批")]']
+  #  营销总经理审批: admin
+  CDP_marketingManagerApproval_node: ["xpath", '//div[contains(text(),"营销总经理审批")]']
   #  审批人选择框
   CDP_treeSelect_input: ["xpath", '//input[contains(@id,"treeSelect-input-")]']
-  #  审批人选择：admin
-  CDP_approver: ["xpath", '//span[contains(text(),"admin")]']
-  #  确定按钮
-  CDP_comfirm_btn: ["xpath",'//button[@class="layui-btn" and @lay-filter="comfirm"]']
+  #  分公司、区域、营销总经理审批节点审批人都选择：admin
+  CDP_Approver: ["xpath", '//span[contains(text(),"admin")]']
+
+  #  总经理审批节点:陆文彬
+  #  CDP_managingDirectorApproval_node: ["xpath", '//div[contains(text(),"总经理审批")]']
+  CDP_managingDirectorApproval_node: ["xpath", '//*[@id="jkl"]/div/div/div[1]/div[5]/div/div']
+  CDP_managingDirectorApprover: ["xpath", '//span[contains(text(),"陆文彬")]']
+
+  #  财务审批：吴小玉
+  CDP_financeApproval_node: ["xpath", '//div[contains(text(),"财务审批")]']
+  CDP_financeApprover: ["xpath", '//span[contains(text(),"吴小玉")]']
+
+  #  ============================= 回款审批弹窗的元素 ====================
+  #  审批通过
+  CDP_pass: ["xpath", '//div[contains(text(),"审批通过")]']
+  #  财务审批时的立项时间输入框
+  CDP_proAppTime_input: ["id","proAppTime"]
+  #  回款审批弹窗的审批备注
+  CDP_approvalRemark_textarea: ["id", "approvalRemark"]
+  #  回款审批弹窗的确定按钮
+  CDP_comfirm_btn1: ["xpath", '//button[@class="layui-btn" and @style="margin: 0 auto;display: block;"]']
+
+
 
 
 #完善合同页
 PerfectContractPage:
   #  ===========================基本信息===============================
+  #  回款期数
+  PC_repaymentPeriod_input: ["xpath", '//*[@id="mount"]/div/form/div[1]/div[9]/div/div/div/input']
+  #  选择3期
+  PC_repaymentPeriod_number: ["xpath", '//*[@id="mount"]/div/form/div[1]/div[9]/div/div/dl/dd[3]']
+
   #  办理时效
   PC_handleDays_input: ["xpath", '//input[@placeholder="办理时效（工作日），例如：60"]']
   #  办理地区
@@ -261,6 +307,26 @@ PerfectContractPage:
   #  回款比例1
   PC_rp_repaymentProportion_0: ["name", "rp_repaymentProportion_0"]
 
+  #  回款金额2
+  PC_rp_repaymentMoney_1: ["name", "rp_repaymentMoney_1"]
+  #  回款备注2
+  PC_rp_remark_1: ["name", "rp_remark_1"]
+  #  回款比例2
+  PC_rp_repaymentProportion_1: ["name", "rp_repaymentProportion_1"]
+
+  #  回款金额3
+  PC_rp_repaymentMoney_2: ["name", "rp_repaymentMoney_2"]
+  #  回款备注3
+  PC_rp_remark_2: ["name", "rp_remark_2"]
+  #  回款比例3
+  PC_rp_repaymentProportion_2: ["name", "rp_repaymentProportion_2"]
+
+
+
+
+
+
+
 # 资质配置
   #  我司提供人数，所有输入框的集合
   PC_quaX_needNum_inputs: ["xpath",'//input[contains(@name,"quaX_needNum_")]']
@@ -294,6 +360,30 @@ PerfectContractPage:
 
   #  保存信息 按钮
   PC_save_btn: ["xpath", '//button[@lay-filter="save"]']
+
+#财务管理的回款审批页
+PaymentApprovalPage:
+
+  #  待审批tab
+  PAG_pendingApproval_tab: ["xpath", '//li[contains(text(),"待审批")]']
+  #  已审批tab
+  PAG_approved_tab: ["xpath", '//li[contains(text(),"已审批")]']
+  #  客户名称、项目编码输入框
+  PAG_customerNameOrCode_input: ["id", "customerNameOrCode"]
+  #  查询按钮
+  PAG_search_btn: ["id","search"]
+  #  列表里的【详情】按钮
+  PAG_table_detail_btn: ["xpath", '//button[contains(text(),"详情")]']
+  #  回款审批里的客户详情页iframe
+  PAG_customers_detail_iframe: ["xpath", '//iframe[@src = "../../cmc/customer/detail-pop-1.html"]']
+
+
+
+
+
+
+
+
 
 
 

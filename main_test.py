@@ -24,7 +24,8 @@ def run():
 
 if __name__ == '__main__':
 
-    pytest.main(["-s", "-k test_paymentCollectionApproval.py "])
+    # pytest.main(["-s", "-k test_paymentCollectionApproval.py "])
+    pytest.main(["-s", "-k test_paymentApproval.py"])
     # run()
 
 
