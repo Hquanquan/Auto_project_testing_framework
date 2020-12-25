@@ -7,9 +7,11 @@
 # @Desc    : 回款审批流
 import time
 
+import allure
 import pytest
 
-
+@allure.epic("UI模块-CRM系统")
+@allure.feature("发起回款审批")
 class TestPaymentCollectionApproval:
 
     @pytest.fixture()
@@ -22,6 +24,8 @@ class TestPaymentCollectionApproval:
         self.customersDetailPage.switch_to_default_content()
         self.commonPage.close_SignedCustomersPage_tab()
 
+    @allure.story("发起回款审批")
+    @allure.title("发起回款审批")
     def test_paymentCollectionApproval(self, after_test_paymentCollectionApproval):
         """
         发起回款审批，预期结果合同状态显示：等待回款审批

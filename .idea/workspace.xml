@@ -26,24 +26,17 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93d5fca4-f52b-4e87-abb0-f6c2924fc2dd" name="默认的" comment="webUI模块，第 5 次提交">
-      <change afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/paymentApprovalPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/签约客户/完善合同/发起回款审批/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/签约客户/完善合同/发起回款审批/回款审批流/test_paymentApproval.py" afterDir="false" />
+    <list default="true" id="93d5fca4-f52b-4e87-abb0-f6c2924fc2dd" name="默认的" comment="webUI模块，第 6 次提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/createCustomers.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/createCustomers.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/web_ele_conf.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/web_ele_conf.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pylib/UIlib/pageObjects/basePage1.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/basePage1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pylib/UIlib/pageObjects/commonPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/commonPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pylib/UIlib/pageObjects/customersDetailPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/customersDetailPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pylib/UIlib/pageObjects/perfectContractPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/perfectContractPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pylib/UIlib/pageObjects/signedCustomersPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/signedCustomersPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/签约客户/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/签约客户/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/签约客户/完善合同/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/签约客户/完善合同/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/test_createCustomer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/test_createCustomer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/test_customers.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/test_customers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/签约客户/test_perfectContract.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/签约客户/test_perfectContract.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/签约客户/完善合同/test_paymentCollectionApproval.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/签约客户/完善合同/test_paymentCollectionApproval.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/签约客户/完善合同/发起回款审批/回款审批流/test_paymentApproval.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/签约客户/完善合同/发起回款审批/回款审批流/test_paymentApproval.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608776907996</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="webUI模块，第 6 次提交">
+      <created>1608887036516</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608887036516</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -375,7 +375,8 @@
     <MESSAGE value="webUI模块，第 3 次提交" />
     <MESSAGE value="webUI模块，第 4 次提交" />
     <MESSAGE value="webUI模块，第 5 次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="webUI模块，第 5 次提交" />
+    <MESSAGE value="webUI模块，第 6 次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="webUI模块，第 6 次提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="805" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608863445802">
@@ -398,22 +399,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="805" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606876526512" />
-    <state width="1899" height="467" key="GridCell.Tab.0.bottom" timestamp="1608886953881">
+    <state width="1899" height="467" key="GridCell.Tab.0.bottom" timestamp="1608890043787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="467" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608886953881" />
-    <state width="1899" height="467" key="GridCell.Tab.0.center" timestamp="1608886953881">
+    <state width="1899" height="467" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608890043787" />
+    <state width="1899" height="467" key="GridCell.Tab.0.center" timestamp="1608890043787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="467" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608886953881" />
-    <state width="1899" height="467" key="GridCell.Tab.0.left" timestamp="1608886953881">
+    <state width="1899" height="467" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608890043787" />
+    <state width="1899" height="467" key="GridCell.Tab.0.left" timestamp="1608890043787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="467" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608886953881" />
-    <state width="1899" height="467" key="GridCell.Tab.0.right" timestamp="1608886953881">
+    <state width="1899" height="467" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608890043787" />
+    <state width="1899" height="467" key="GridCell.Tab.0.right" timestamp="1608890043787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="467" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608886953881" />
+    <state width="1899" height="467" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608890043787" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1607759572768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -442,10 +443,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="812" y="432" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607935322765" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1608776910845">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1608887038603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608776910845" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608887038603" />
     <state x="773" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606903586874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

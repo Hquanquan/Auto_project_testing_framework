@@ -184,6 +184,6 @@ class CommonPage(BasePage):
         self.click(self.signedCustomersPage_close_icon)
 
     @allure.step("step: 【关闭回款审批tab页】")
-    def close_SignedCustomersPage_tab(self):
+    def close_paymentApprovalPage_tab(self):
         """ 【关闭回款审批tab页】 """
         self.click(self.paymentApprovalPage_close_icon)

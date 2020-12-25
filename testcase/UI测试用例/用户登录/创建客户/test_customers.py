@@ -35,7 +35,7 @@ class TestCustomer:
 
     @allure.story("客户管理-待跟客户")
     @allure.title("创建客户")
-    @pytest.mark.skip("暂不执行")
+    # @pytest.mark.skip("暂不执行")
     def test_createCustomer(self, before_test_createCustomer):
         """
         当前账号已有客户，创建一个新的客户

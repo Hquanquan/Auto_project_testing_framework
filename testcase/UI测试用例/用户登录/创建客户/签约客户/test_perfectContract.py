@@ -63,11 +63,15 @@ class TestContract:
         self.perfectContractPage.click_saveBtn()
         time.sleep(1)
         # =========== 切换iframe 否则无法获取元素===============
-        # 回到默认的iframe
-        self.perfectContractPage.switch_to_default_content()
+        # 刷新页面
+        self.perfectContractPage.refresh()
         # 切换iframe到签约客户列表页iframe
         self.commonPage.switch_to_signedCustomersPage_iframe()
-        # 切换iframe到客户详情页
+        # 查找签约客户
+        self.signedCustomersPage.find_signedCustomers(self.costomersInfo["customersInfo"]["name"])
+        # 进入客户详情页
+        self.signedCustomersPage.enter_customerDetail()
+        # 【内部操作：签约客户列表页切换到客户详情iframe】
         self.signedCustomersPage.switch_to_CustomersDetailPage_iframe()
         # 断言
         assert self.customersDetailPage.get_contractStatus() == "等待首款回款"

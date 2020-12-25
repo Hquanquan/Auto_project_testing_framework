@@ -7,12 +7,14 @@
 # @Desc    : 回款审批流
 import time
 
+import allure
 import pytest
 
 from pylib.UIlib.pageObjects.loginPage import LoginPage
 from pylib.UIlib.pageObjects.paymentApprovalPage import PaymentApprovalPage
 
-
+@allure.epic("UI模块-CRM系统")
+@allure.feature("回款审批流")
 class TestPaymentApproval:
 
     @pytest.fixture()
@@ -24,10 +26,10 @@ class TestPaymentApproval:
         yield
         self.customersDetailPage.refresh()
         # 关闭回款审批tab页
-        self.commonPage.close_SignedCustomersPage_tab()
+        self.commonPage.close_paymentApprovalPage_tab()
 
-
-
+    @allure.story("回款审批流")
+    @allure.title("回款审批流")
     def test_paymentApproval(self, after_test_paymentApproval):
         """
         回款审批流：

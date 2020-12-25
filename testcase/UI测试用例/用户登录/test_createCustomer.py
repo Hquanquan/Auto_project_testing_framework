@@ -1,7 +1,7 @@
 #!/usr/bin/python3.8
 # -*- coding: utf-8 -*-
 # @Time    : 2020/12/4 23:09
-# @File : test_customer.py
+# @File : test_createCustomer.py
 # @Author  : 黄权权
 # @Software: PyCharm
 # @Desc    : 环境：当前账号没有客户
