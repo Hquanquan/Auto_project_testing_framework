@@ -6,7 +6,7 @@
 # @Software: PyCharm
 # @Desc    : None
 
-HOST = "http://192.168.1.173/crmViewX"
+HOST = "http://192.168.1.25/crmViewX"
 
 # 用户信息
 # userName = "13546859758"

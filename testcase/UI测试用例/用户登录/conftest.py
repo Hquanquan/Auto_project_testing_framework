@@ -24,7 +24,7 @@ def user_login():
     user.login(userName, password)
     commonPage = CommonPage()
     yield user, commonPage
-    # commonPage.logout()
-    # commonPage.quit_browser()
+    commonPage.logout()
+    commonPage.quit_browser()
 
 

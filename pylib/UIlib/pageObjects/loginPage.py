@@ -5,6 +5,8 @@
 # @Author  : 黄权权
 # @Software: PyCharm
 # @Desc    : 登录页
+import allure
+
 from pylib.UIlib.pageObjects.basePage1 import BasePage
 
 
@@ -24,9 +26,10 @@ class LoginPage(BasePage):
     # password = "id=>password"
     # login_btn = "css=>.loginItem .layui-form-item button"
 
+    @allure.step("step:用户登录系统")
     def login(self, username, password):
         """
-        登录系统
+        用户登录系统
         :param username:
         :param password:
         :return:
