@@ -20,9 +20,12 @@ def init_organiz(admin_login):
     :return:
     """
     org_api = OrganizAPI(admin_login)
+    # 删除所有部门
     org_api.delete_all()
+    # 创建一个销售部
     sale_org = org_api.add(name="销售部")
     yield org_api, sale_org
+    # 删除这个新建的销售部
     org_api.delete(sale_org["_id"])
 
 

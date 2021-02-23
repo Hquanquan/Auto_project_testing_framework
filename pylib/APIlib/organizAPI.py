@@ -37,7 +37,7 @@ class OrganizAPI(BaseAPI):
         return super().edit(_id, **kwargs)
 
     def delete_all(self):
-        # 列出所有部门，不包括总公司部门
+        # 删除所有部门，不包括总公司部门
         orgs = self.list_all()[1:]
         for org in orgs:
             self.delete(org['_id'])

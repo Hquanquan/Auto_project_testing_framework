@@ -21,13 +21,13 @@ class TestContractsAPI:
         yield
         self.contract_api.delete(self.new_contract["_id"])
 
-    @dynamic_report('decs', 'decs')
+    @dynamic_report('decs', 'decs')     # 自定义的装饰器，用来定义参数化的用例描述显示在allure报告上
     @allure.story("合同-ContractsAPI-添加合同")
     @allure.title("添加合同测试用例")
     @pytest.mark.parametrize("name,amount,decs", ConvertData.get_param())
     def test_tc003001(self, name, amount, decs, after_tc003001, init_organiz, init_accounts, init_contractTypes):
         """
-        当前系统没有合同，添加合同。预期结果是添加的合同存在于所有的合同列表中
+        当前系统没有合同，添加合同。预期结果是添加的合同存在于所有合同列表中
         添加合同需要的参数：
             name string 合同名称
             othercompany string 签约对象ID

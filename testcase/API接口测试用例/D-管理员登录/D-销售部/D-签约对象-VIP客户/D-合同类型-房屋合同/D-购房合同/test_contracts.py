@@ -50,7 +50,7 @@ class TestContractAPI:
     @pytest.fixture()
     def before_tc003051(self, init_contracts, init_organiz, init_accounts, init_contractTypes):
         """
-        1、环境初始化，系统已存在合同，创建一个不同的合同
+        1、环境初始化，系统已存在合同，创建一个新的合同
         2、清除测试数据
         :param init_contracts: 创建一个合同，并提供合同实例对象
         :param init_organiz: 提供部门对象信息
@@ -74,7 +74,7 @@ class TestContractAPI:
     def test_tc003051(self, before_tc003051):
         """
         当前系统已经有合同,修改合同的名称为"卖房合同"，只需传递name字段
-        :param before_tc003051: 环境初始化，系统已存在合同，创建一个不同的合同
+        :param before_tc003051: 环境初始化，系统已存在合同，创建一个新的合同
         :return:
         """
         # create_date = self.new_contract["create_date"] , create_date=create_date

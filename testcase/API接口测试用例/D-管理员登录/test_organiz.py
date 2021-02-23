@@ -47,6 +47,9 @@ class TestOrganizAPI:
         :param before_tc000091: 初始化-创建一个部门，提供一个已存在的部门id
         :return:
         """
+        # 通过已存在的部门id删除部门
         self.org_api.delete(self.new_organiz["_id"])
-        res = self.org_api.list_all()[1:]  # 过滤掉总公司
+        # 过滤掉总公司，获取返回的部门列表
+        res = self.org_api.list_all()[1:]
+        # 断言返回部门列表为空
         assert res == []

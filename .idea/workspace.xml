@@ -26,13 +26,22 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93d5fca4-f52b-4e87-abb0-f6c2924fc2dd" name="默认的" comment="webUI模块，第 7 次提交">
+    <list default="true" id="93d5fca4-f52b-4e87-abb0-f6c2924fc2dd" name="默认的" comment="webUI模块，第 8 次提交">
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/createCustomers.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/createCustomers.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/web_config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/configs/web_config.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/web_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/web_env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pylib/UIlib/pageObjects/loginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylib/UIlib/pageObjects/loginPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/UI测试用例/用户登录/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/contracts_data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/contracts_data.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pylib/APIlib/organizAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylib/APIlib/organizAPI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/D-合同类型-房屋合同/D-购房合同/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/D-合同类型-房屋合同/D-购房合同/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/D-合同类型-房屋合同/D-购房合同/test_contracts.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/D-合同类型-房屋合同/D-购房合同/test_contracts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/D-合同类型-房屋合同/test_contract.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/D-合同类型-房屋合同/test_contract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/D-合同类型-房屋合同/test_contractTypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/D-签约对象-VIP客户/D-合同类型-房屋合同/test_contractTypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/test_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/D-销售部/test_account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/test_organiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/API接口测试用例/D-管理员登录/test_organiz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/convertData.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/convertData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../自动化项目实战/课程代码/day5/main_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../自动化项目实战/课程代码/day5/main_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,20 +95,20 @@
       <recent name="E:\learning\PycharmProjects\Auto_project_testing_framework\testcase\demo\test1\test2\test3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main_test (3)">
-    <configuration name="main_test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="自动化项目实战" />
+  <component name="RunManager" selected="Python.main_test">
+    <configuration name="baseAPI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Auto_project_testing_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../自动化项目实战/我的代码" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pylib/APIlib" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../自动化项目实战/我的代码/main_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pylib/APIlib/baseAPI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,19 +117,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_test (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="自动化项目实战" />
+    <configuration name="convertData" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Auto_project_testing_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../自动化项目实战/课程代码/day5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../自动化项目实战/课程代码/day5/main_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/convertData.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,7 +159,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_paymentCollectionApproval" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="organizAPI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Auto_project_testing_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -158,11 +167,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/签约客户/完善合同" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pylib/APIlib" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/UI测试用例/用户登录/创建客户/签约客户/完善合同/test_paymentCollectionApproval.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pylib/APIlib/organizAPI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,7 +180,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tools" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Auto_project_testing_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,11 +188,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/tools.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main_test (3)" />
-        <item itemvalue="Python.main_test (2)" />
         <item itemvalue="Python.main_test" />
-        <item itemvalue="Python.tools" />
-        <item itemvalue="Python.test_paymentCollectionApproval" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.organizAPI" />
+        <item itemvalue="Python.convertData" />
+        <item itemvalue="Python.baseAPI" />
       </list>
     </recent_temporary>
   </component>
@@ -332,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608890779188</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="webUI模块，第 8 次提交">
+      <created>1609727160107</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1609727160107</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -414,7 +430,8 @@
     <MESSAGE value="webUI模块，第 5 次提交" />
     <MESSAGE value="webUI模块，第 6 次提交" />
     <MESSAGE value="webUI模块，第 7 次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="webUI模块，第 7 次提交" />
+    <MESSAGE value="webUI模块，第 8 次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="webUI模块，第 8 次提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="805" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608863445802">
@@ -437,22 +454,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="805" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606876526512" />
-    <state width="1899" height="467" key="GridCell.Tab.0.bottom" timestamp="1609381616270">
+    <state width="1899" height="589" key="GridCell.Tab.0.bottom" timestamp="1614060724433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="467" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609381616270" />
-    <state width="1899" height="467" key="GridCell.Tab.0.center" timestamp="1609381616269">
+    <state width="1899" height="589" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614060724433" />
+    <state width="1899" height="589" key="GridCell.Tab.0.center" timestamp="1614060724433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="467" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609381616269" />
-    <state width="1899" height="467" key="GridCell.Tab.0.left" timestamp="1609381616269">
+    <state width="1899" height="589" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614060724433" />
+    <state width="1899" height="589" key="GridCell.Tab.0.left" timestamp="1614060724433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="467" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609381616269" />
-    <state width="1899" height="467" key="GridCell.Tab.0.right" timestamp="1609381616269">
+    <state width="1899" height="589" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614060724433" />
+    <state width="1899" height="589" key="GridCell.Tab.0.right" timestamp="1614060724433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="467" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609381616269" />
+    <state width="1899" height="589" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614060724433" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1607759572768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -481,10 +498,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="812" y="432" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607935322765" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1608890781269">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1609727161898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608890781269" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609727161898" />
     <state x="773" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606903586874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -501,10 +518,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="803" y="291" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607421813070" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608773510416">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1614052005010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608773510416" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614052005010" />
     <state x="719" y="203" key="svn.repositoryBrowser" timestamp="1606876540526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

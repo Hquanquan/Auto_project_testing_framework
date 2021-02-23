@@ -28,6 +28,11 @@ class ConvertData:
 
     @staticmethod
     def get_param(path='data/contracts_data.yaml'):
+        """
+        读取指定配置文件的数据，以列表嵌套列表的形式返回：[[],[],[]]
+        :param path:
+        :return:
+        """
         data = read_yaml(path)
         values = [data[key] for key in data]
         res = []

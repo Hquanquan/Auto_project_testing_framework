@@ -29,7 +29,9 @@ class TestAccountsAPI:
         :return:
         """
         self.new_account = self.accounts_api.add(name="VIP客户", company_ids=[init_organiz[1]["_id"]])
+        # 列出所有的签约客户
         accounts = self.accounts_api.list_all()
+        # 断言新签约的客户存在于所有签约客户列表里
         assert self.new_account in accounts
 
     @allure.story("签约对象-AccountsAPI-修改签约对象")
@@ -41,12 +43,15 @@ class TestAccountsAPI:
         :return:
         """
         self.accounts_api = empty_accounts
+        # 通过不存在的签约对象id修改签约对象名称
         res = self.accounts_api.edit("fasdfasdf", name="普通客户")
+        # 断言返回结果500
         assert res["error"]["code"] == 500
 
     @pytest.fixture()
     def before_tc001091(self, empty_accounts, init_organiz):
         self.accounts_api = empty_accounts
+        # 添加一个签约客户
         self.new_account = self.accounts_api.add(name="VIP客户", company_ids=[init_organiz[1]["_id"]])
         yield
 
@@ -58,8 +63,11 @@ class TestAccountsAPI:
         :param before_tc001091: 环境初始化，提供一个已存在的签约对象信息
         :return:
         """
+        # 通过一个已存在的签约对象id删除签约对象
         self.accounts_api.delete(self.new_account["_id"])
+        # 获取所有的签约对象的列表
         accounts = self.accounts_api.list_all()
+        # 断言列表为空
         assert accounts == []
 
 

@@ -42,6 +42,11 @@ class TestContractTypesAPI:
     @allure.story("合同分类-ContractTypesAPI-修改合同分类")
     @allure.title("修改合同分类测试用例")
     def test_tc002051(self, before_tc002051):
+        """
+        当前系统已有合同类型，通过一个已存在的合同类型id去修改合同类型
+        :param before_tc002051:
+        :return:
+        """
         self.contractTypes_api.edit(self.new_contractType["_id"], name="车辆合同")
         contractTypes = self.contractTypes_api.list_all()
         for contractType in contractTypes:
