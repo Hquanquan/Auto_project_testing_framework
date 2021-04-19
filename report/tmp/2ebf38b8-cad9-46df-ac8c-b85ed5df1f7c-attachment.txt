@@ -1,0 +1,5 @@
+INFO     BasePage:basePage1.py:77 2020-12-11 16:48:03-436272 Had find the element '  ' successfully by id via value:logout
+INFO     BasePage:basePage1.py:351 2020-12-11 16:48:03-548971 The emement was click
+INFO     BasePage:basePage1.py:140 2020-12-11 16:48:03-712536 Had find the element ' 确定 ' successfully by css selector via value:div.layui-layer-dialog a.layui-layer-btn0
+INFO     BasePage:basePage1.py:351 2020-12-11 16:48:03-980817 The emement was click
+INFO     BasePage:basePage1.py:274 2020-12-11 16:48:03-980817 quit the browser!

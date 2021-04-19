@@ -18,10 +18,10 @@ class Driver:
     # 实现单例模式
     # new方法--通过cls调用，调用new方法后生成对象
     def __new__(cls, *args, **kwargs):
-        # 判断该cls是否有对应的实例
+        # 判断该cls是否有对应的实例，hasattr() 函数用于判断对象是否包含对应的属性。如果对象有该属性返回 True，否则返回 False。
         if hasattr(cls, '_instance'):
             return cls._instance
-        cls._instance = object.__new__(cls)  # 创建对象
+        cls._instance = object.__new__(cls)  # 没有则创建对象
         return cls._instance
 
     def get_driver(self):
@@ -68,13 +68,13 @@ class Driver:
             print("未配置此浏览器驱动")
             logger.info("%s 未配置此浏览器驱动:%s" % (get_dataTime(), browserName))
             return
-        # 利用获取到的briver 打开浏览器，访问url地址,使用try 语句
+        # 利用获取到的driver 打开浏览器，访问url地址,使用try 语句
         try:
             # 窗口最大化
             self.driver.maximize_window()
             self.driver.get(url)
             logger.info("%s Open url %s " % (get_dataTime(), url))
-            # 等待10秒
+            # 隐式等待10秒
             self.driver.implicitly_wait(10)
             logger.info("%s Set implicitly wait 10" % get_dataTime())
 

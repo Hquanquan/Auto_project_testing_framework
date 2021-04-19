@@ -5,7 +5,7 @@
 # @Author  : 黄权权
 # @Software: PyCharm
 # @Desc    : None
-
+import allure
 import pytest
 
 from pylib.APIlib.accountsAPI import AccountsAPI

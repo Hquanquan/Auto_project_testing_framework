@@ -36,6 +36,11 @@ class TestOrganizAPI:
 
     @pytest.fixture()
     def before_tc000091(self, empty_organiz):
+        """
+        删除部门测试用例前的操作！！！！！！！
+        :param empty_organiz:
+        :return:
+        """
         self.org_api = empty_organiz
         self.new_organiz = self.org_api.add(name="测试部")
 

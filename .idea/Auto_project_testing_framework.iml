@@ -7,5 +7,11 @@
     <orderEntry type="module" module-name="自动化项目实战" />
     <orderEntry type="module" module-name="delivery_system" />
     <orderEntry type="module" module-name="po模式" />
+    <orderEntry type="module" module-name="教管系统接口测试项目" />
+    <orderEntry type="module" module-name="接口自动化测试" />
+    <orderEntry type="module" module-name=" AutoTestFramework" />
+    <orderEntry type="module" module-name="auto_test" />
+    <orderEntry type="module" module-name="sonqin_API_auto_test" />
+    <orderEntry type="module" module-name="教管系统接口测试项目" />
   </component>
 </module>

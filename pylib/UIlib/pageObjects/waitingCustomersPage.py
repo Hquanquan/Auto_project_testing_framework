@@ -11,6 +11,7 @@ import allure
 
 from pylib.UIlib.pageObjects.basePage1 import BasePage
 from utils.tools import create_Str, get_phone_num, write_yaml
+from selenium.webdriver.support.ui import Select
 
 
 class WaittingCustomersPage(BasePage):
@@ -63,7 +64,12 @@ class WaittingCustomersPage(BasePage):
         self.send_keys(self.departmentPosition_input, customersInfo["departmentPosition"])
         # 输入咨询资质
         self.send_keys(self.qualification_input, customersInfo["qualification"])
-        # 客户来源，来源渠道暂时不填
+        # 来源渠道
+
+
+        input("暂停")
+
+
         # 选择所在地区：广东省-广州市
         self.click(self.location_input)
         time.sleep(0.5)

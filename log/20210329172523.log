@@ -1,0 +1,68 @@
+2021-03-29 17:25:24-141118 You had select Chrome browser!
+2021-03-29 17:25:24-141118 You had select E:\Python\chromedriver_win32\chromedriver.exe 
+2021-03-29 17:25:24-141118 The test server url is http://192.168.1.25/crmViewX
+2021-03-29 17:25:25-940039 Starting Chorme browser!
+2021-03-29 17:25:26-269176 Open url http://192.168.1.25/crmViewX 
+2021-03-29 17:25:26-271171 Set implicitly wait 10
+2021-03-29 17:25:26-404920 Had find the element '  ' successfully by id via value:username
+2021-03-29 17:25:26-500253 Had type ' 15515381638 ' in inputBox
+2021-03-29 17:25:26-523113 Had find the element '  ' successfully by id via value:password
+2021-03-29 17:25:26-645715 Had type ' 18002269982 ' in inputBox
+2021-03-29 17:25:26-666658 Had find the element ' 登录 ' successfully by css selector via value:.loginItem .layui-form-item button
+2021-03-29 17:25:26-709544 The element was click
+2021-03-29 17:25:27-171308 Had find the element ' 客户管理 ' successfully by xpath via value://cite[contains(text(),"客户管理")]
+2021-03-29 17:25:27-321906 Had find the element ' 客户管理 ' successfully by xpath via value://cite[contains(text(),"客户管理")]
+2021-03-29 17:25:27-395708 The element was click
+2021-03-29 17:25:27-530348 Had find the element ' 待跟客户 ' successfully by xpath via value://cite[contains(text(),"待跟客户")]
+2021-03-29 17:25:27-709871 Had find the element ' 待跟客户 ' successfully by xpath via value://cite[contains(text(),"待跟客户")]
+2021-03-29 17:25:27-919307 The element was click
+2021-03-29 17:25:28-024028 Had find the element '  ' successfully by xpath via value://iframe[@src="pages/market/wait/wait.html"]
+2021-03-29 17:25:28-099825 Switch to the iframe
+2021-03-29 17:25:28-289317 Had find the element ' 创建客户 ' successfully by xpath via value://button[@permission="45" and @lay-event="createCus"]
+2021-03-29 17:25:28-829872 The element was click
+2021-03-29 17:25:29-386382 Had find the element '  ' successfully by id via value:layui-layer-iframe2
+2021-03-29 17:25:29-414308 Switch to the iframe
+2021-03-29 17:25:29-437246 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="公司名称"]
+2021-03-29 17:25:29-552688 Had type ' 公司名称20210329172529 ' in inputBox
+2021-03-29 17:25:29-581611 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="联系电话"]
+2021-03-29 17:25:29-677072 Had type ' 14776931391 ' in inputBox
+2021-03-29 17:25:29-704998 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="联系微信"]
+2021-03-29 17:25:29-810171 Had type ' wx20210329172529 ' in inputBox
+2021-03-29 17:25:29-834116 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="联系QQ"]
+2021-03-29 17:25:29-925871 Had type ' 14587659951 ' in inputBox
+2021-03-29 17:25:29-950804 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="联系人员"]
+2021-03-29 17:25:30-049539 Had type ' 联系人20210329172529 ' in inputBox
+2021-03-29 17:25:30-073477 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="email"]
+2021-03-29 17:25:30-186154 Had type ' 15649298130@test.com ' in inputBox
+2021-03-29 17:25:30-214858 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="部门职位"]
+2021-03-29 17:25:30-290656 Had type ' 董事长助理 ' in inputBox
+2021-03-29 17:25:30-315050 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="咨询资质"]
+2021-03-29 17:25:30-392847 Had type ' 工程造价 ' in inputBox
+2021-03-29 17:25:36-889321 Had find the element ' 请选择地区 ' successfully by css selector via value:#xmSelect div.xm-tips
+2021-03-29 17:25:36-996258 The element was click
+2021-03-29 17:25:37-521423 Had find the element ' 广东省 ' successfully by xpath via value://div[contains(text(),"广东省")]
+2021-03-29 17:25:37-618166 The element was click
+2021-03-29 17:25:38-143452 Had find the element ' 广州市 ' successfully by xpath via value://div[contains(text(),"广州市")]
+2021-03-29 17:25:38-246179 The element was click
+2021-03-29 17:25:38-271111 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="请选择资质类型"]
+2021-03-29 17:25:38-366856 The element was click
+2021-03-29 17:25:38-396775 Had find the element ' 施工 ' successfully by xpath via value://dd[contains(text(),"施工")]
+2021-03-29 17:25:38-486536 The element was click
+2021-03-29 17:25:38-514460 Had find the element '  ' successfully by css selector via value:#mount #text_txt1
+2021-03-29 17:25:38-646109 Had type ' 测试创建客户20210329172529 ' in inputBox
+2021-03-29 17:25:38-672039 Had find the element ' 信息保存 ' successfully by css selector via value:#mount .layui-btn
+2021-03-29 17:25:38-767785 The element was click
+2021-03-29 17:25:41-838920 The page has been refreshed
+2021-03-29 17:25:42-171809 Had find the element '  ' successfully by xpath via value://iframe[@src="pages/market/wait/wait.html"]
+2021-03-29 17:25:42-250598 Switch to the iframe
+2021-03-29 17:25:42-288496 Had find the element '  ' successfully by id via value:cnOrPnOrPInp
+2021-03-29 17:25:42-483973 Had type ' 公司名称20210329172529 ' in inputBox
+2021-03-29 17:25:42-509904 Had find the element ' 查询 ' successfully by id via value:search
+2021-03-29 17:25:42-992518 The element was click
+2021-03-29 17:25:43-212192 Had find the element ' 公司名称20210329172529 ' successfully by css selector via value:.layui-table-main tbody td:nth-child(4)
+2021-03-29 17:25:43-259159 Had find the element ' 14776931391（电话） ' successfully by css selector via value:.layui-table-main tbody td:nth-child(6)
+2021-03-29 17:25:43-303774 Had find the element ' 联系人20210329172529 ' successfully by css selector via value:.layui-table-main tbody td:nth-child(5)
+2021-03-29 17:25:43-400551 The page has been refreshed
+2021-03-29 17:25:43-592039 Had find the element ' 首页概览 ' successfully by xpath via value://cite[contains(text(),"首页概览")]
+2021-03-29 17:25:43-653874 Had find the element ' 首页概览 ' successfully by xpath via value://cite[contains(text(),"首页概览")]
+2021-03-29 17:25:43-713715 The element was click

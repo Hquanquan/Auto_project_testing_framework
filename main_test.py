@@ -20,8 +20,8 @@ def run():
             os.remove(f'report/tmp/{one}')
 
     # pytest.main(['testcase/UI测试用例', '-s', '--alluredir=report/tmp'])
-    # pytest.main(['testcase/API接口测试用例', '-s', '--alluredir=report/tmp'])
-    pytest.main(['testcase', '-s', '--alluredir=report/tmp'])
+    pytest.main(['testcase/API接口测试用例', '-s', '--alluredir=report/tmp'])
+    # pytest.main(['testcase', '-s', '--alluredir=report/tmp'])
     os.system('allure serve report/tmp')
 
 if __name__ == '__main__':
@@ -39,6 +39,9 @@ if __name__ == '__main__':
 
     # ================= 签约客户，完善合同，页面元素变化导致失败=====================
     # pytest.main(["-s", "-k test_perfectContract.py"])
+
+
+
     run()
 
 

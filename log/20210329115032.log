@@ -1,0 +1,70 @@
+2021-03-29 11:50:32-769562 You had select Chrome browser!
+2021-03-29 11:50:32-769562 You had select E:\Python\chromedriver_win32\chromedriver.exe 
+2021-03-29 11:50:32-769562 The test server url is http://192.168.1.25/crmViewX
+2021-03-29 11:50:34-357474 Starting Chorme browser!
+2021-03-29 11:50:34-713521 Open url http://192.168.1.25/crmViewX 
+2021-03-29 11:50:34-716512 Set implicitly wait 10
+2021-03-29 11:50:34-844398 Had find the element '  ' successfully by id via value:username
+2021-03-29 11:50:34-941398 Had type ' 15515381638 ' in inputBox
+2021-03-29 11:50:34-960667 Had find the element '  ' successfully by id via value:password
+2021-03-29 11:50:35-076915 Had type ' 18002269982 ' in inputBox
+2021-03-29 11:50:35-098853 Had find the element ' 登录 ' successfully by css selector via value:.loginItem .layui-form-item button
+2021-03-29 11:50:35-138927 The element was click
+2021-03-29 11:50:35-625201 Had find the element ' 客户管理 ' successfully by xpath via value://cite[contains(text(),"客户管理")]
+2021-03-29 11:50:35-711969 Had find the element ' 客户管理 ' successfully by xpath via value://cite[contains(text(),"客户管理")]
+2021-03-29 11:50:35-756849 The element was click
+2021-03-29 11:50:36-327661 Had find the element ' 待跟客户 ' successfully by xpath via value://cite[contains(text(),"待跟客户")]
+2021-03-29 11:50:36-385212 Had find the element ' 待跟客户 ' successfully by xpath via value://cite[contains(text(),"待跟客户")]
+2021-03-29 11:50:36-454782 The element was click
+2021-03-29 11:50:36-542546 Had find the element '  ' successfully by xpath via value://iframe[@src="pages/market/wait/wait.html"]
+2021-03-29 11:50:36-626320 Switch to the iframe
+2021-03-29 11:50:36-853732 Had find the element ' 创建客户 ' successfully by xpath via value://button[@permission="45" and @lay-event="createCus"]
+2021-03-29 11:50:37-426803 The element was click
+2021-03-29 11:50:37-476669 Had find the element '  ' successfully by id via value:layui-layer-iframe2
+2021-03-29 11:50:37-585377 Switch to the iframe
+2021-03-29 11:50:37-719019 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="公司名称"]
+2021-03-29 11:50:37-844683 Had type ' 公司名称20210329115037 ' in inputBox
+2021-03-29 11:50:37-876598 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="联系电话"]
+2021-03-29 11:50:37-979473 Had type ' 17576473199 ' in inputBox
+2021-03-29 11:50:38-003408 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="联系微信"]
+2021-03-29 11:50:38-101147 Had type ' wx20210329115037 ' in inputBox
+2021-03-29 11:50:38-124086 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="联系QQ"]
+2021-03-29 11:50:38-271692 Had type ' 15678678587 ' in inputBox
+2021-03-29 11:50:38-300613 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="联系人员"]
+2021-03-29 11:50:38-415312 Had type ' 联系人20210329115037 ' in inputBox
+2021-03-29 11:50:38-449145 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="email"]
+2021-03-29 11:50:38-606597 Had type ' 14947084944@test.com ' in inputBox
+2021-03-29 11:50:38-637516 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="部门职位"]
+2021-03-29 11:50:38-713313 Had type ' 董事长助理 ' in inputBox
+2021-03-29 11:50:38-750214 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="咨询资质"]
+2021-03-29 11:50:38-869894 Had type ' 工程造价 ' in inputBox
+2021-03-29 11:50:38-954667 Had find the element ' 请选择地区 ' successfully by css selector via value:#xmSelect div.xm-tips
+2021-03-29 11:50:39-104267 The element was click
+2021-03-29 11:50:39-646414 Had find the element ' 广东省 ' successfully by xpath via value://div[contains(text(),"广东省")]
+2021-03-29 11:50:39-770084 The element was click
+2021-03-29 11:50:40-295718 Had find the element ' 广州市 ' successfully by xpath via value://div[contains(text(),"广州市")]
+2021-03-29 11:50:40-394453 The element was click
+2021-03-29 11:50:40-423375 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="请选择资质类型"]
+2021-03-29 11:50:40-521128 The element was click
+2021-03-29 11:50:40-550038 Had find the element ' 施工 ' successfully by xpath via value://dd[contains(text(),"施工")]
+2021-03-29 11:50:40-642788 The element was click
+2021-03-29 11:50:40-666724 Had find the element '  ' successfully by css selector via value:#mount #text_txt1
+2021-03-29 11:50:40-767456 Had type ' 测试创建客户20210329115037 ' in inputBox
+2021-03-29 11:50:40-799370 Had find the element ' 信息保存 ' successfully by css selector via value:#mount .layui-btn
+2021-03-29 11:50:40-889130 The element was click
+2021-03-29 11:50:43-969048 The page has been refreshed
+2021-03-29 11:50:44-126626 Had find the element '  ' successfully by xpath via value://iframe[@src="pages/market/wait/wait.html"]
+2021-03-29 11:50:44-181481 Switch to the iframe
+2021-03-29 11:50:44-219379 Had find the element '  ' successfully by id via value:cnOrPnOrPInp
+2021-03-29 11:50:44-358007 Had type ' 公司名称20210329115037 ' in inputBox
+2021-03-29 11:50:44-383938 Had find the element ' 查询 ' successfully by id via value:search
+2021-03-29 11:50:44-892672 The element was click
+2021-03-29 11:50:55-436581 Timeout查找元素超时
+2021-03-29 11:51:05-455642 NoSuchElementException:Message: no such element: Unable to locate element: {"method":"css selector","selector":".layui-table-main tbody td:nth-child(4)"}
+  (Session info: chrome=89.0.4389.90)
+
+2021-03-29 11:51:05-774940 Had take screenshot and save to folder : /screenshots
+2021-03-29 11:51:06-015469 The page has been refreshed
+2021-03-29 11:51:06-193990 Had find the element ' 首页概览 ' successfully by xpath via value://cite[contains(text(),"首页概览")]
+2021-03-29 11:51:06-263806 Had find the element ' 首页概览 ' successfully by xpath via value://cite[contains(text(),"首页概览")]
+2021-03-29 11:51:06-326636 The element was click

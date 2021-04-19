@@ -1,0 +1,21 @@
+ERROR    BasePage:basePage1.py:75 2021-03-29 15:10:49-391657 Timeout查找元素超时
+ERROR    BasePage:basePage1.py:138 2021-03-29 15:10:59-423370 NoSuchElementException:Message: no such element: Unable to locate element: {"method":"xpath","selector":"//cite[contains(text(),"客户管理")]"}
+  (Session info: chrome=89.0.4389.90)
+
+INFO     BasePage:basePage1.py:267 2021-03-29 15:10:59-852459 Had take screenshot and save to folder : /screenshots
+ERROR    BasePage:basePage1.py:75 2021-03-29 15:11:10-394697 Timeout查找元素超时
+ERROR    BasePage:basePage1.py:138 2021-03-29 15:11:20-443179 NoSuchElementException:Message: no such element: Unable to locate element: {"method":"xpath","selector":"//cite[contains(text(),"待跟客户")]"}
+  (Session info: chrome=89.0.4389.90)
+
+INFO     BasePage:basePage1.py:267 2021-03-29 15:11:20-770309 Had take screenshot and save to folder : /screenshots
+ERROR    BasePage:basePage1.py:75 2021-03-29 15:11:31-329924 Timeout查找元素超时
+ERROR    BasePage:basePage1.py:138 2021-03-29 15:11:41-382960 NoSuchElementException:Message: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[@src="pages/market/wait/wait.html"]"}
+  (Session info: chrome=89.0.4389.90)
+
+INFO     BasePage:basePage1.py:267 2021-03-29 15:11:41-718767 Had take screenshot and save to folder : /screenshots
+INFO     BasePage:basePage1.py:459 2021-03-29 15:11:41-721742 Switch to the iframe
+ERROR    BasePage:basePage1.py:75 2021-03-29 15:11:52-268844 Timeout查找元素超时
+ERROR    BasePage:basePage1.py:138 2021-03-29 15:12:02-325145 NoSuchElementException:Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@permission="45" and @lay-event="createCus"]"}
+  (Session info: chrome=89.0.4389.90)
+
+INFO     BasePage:basePage1.py:267 2021-03-29 15:12:02-673171 Had take screenshot and save to folder : /screenshots

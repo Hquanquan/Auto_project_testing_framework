@@ -1,0 +1,29 @@
+INFO     BasePage:basePage1.py:135 2020-12-15 14:34:14-429545 Had find the element ' 客户管理 ' successfully by xpath via value://cite[contains(text(),"客户管理")]
+INFO     BasePage:basePage1.py:135 2020-12-15 14:34:14-511325 Had find the element ' 客户管理 ' successfully by xpath via value://cite[contains(text(),"客户管理")]
+INFO     BasePage:basePage1.py:355 2020-12-15 14:34:14-640981 The emement was click
+INFO     BasePage:basePage1.py:135 2020-12-15 14:34:15-319091 Had find the element ' 待跟客户 ' successfully by xpath via value://cite[contains(text(),"待跟客户")]
+INFO     BasePage:basePage1.py:135 2020-12-15 14:34:15-419225 Had find the element ' 待跟客户 ' successfully by xpath via value://cite[contains(text(),"待跟客户")]
+INFO     BasePage:basePage1.py:355 2020-12-15 14:34:15-471927 The emement was click
+INFO     BasePage:basePage1.py:135 2020-12-15 14:34:15-520794 Had find the element '  ' successfully by xpath via value://iframe[@src="pages/market/wait/wait.html"]
+INFO     BasePage:basePage1.py:433 2020-12-15 14:34:15-570664 Switch to the iframe
+INFO     BasePage:basePage1.py:81 2020-12-15 14:34:15-607563 Had find the element '  ' successfully by id via value:cnOrPnOrPInp
+INFO     BasePage:basePage1.py:325 2020-12-15 14:34:15-755139 Had type ' 公司名称20201215143358 ' in inputBox
+INFO     BasePage:basePage1.py:81 2020-12-15 14:34:15-775085 Had find the element ' 查询 ' successfully by id via value:search
+INFO     BasePage:basePage1.py:355 2020-12-15 14:34:16-257448 The emement was click
+INFO     BasePage:basePage1.py:225 2020-12-15 14:34:16-279387 Had find the elements  successfully by xpath via value://button[contains(text(),"详情")]
+INFO     BasePage:basePage1.py:135 2020-12-15 14:34:16-954876 Had find the element '  ' successfully by xpath via value://iframe[@src="../../cmc/customer/detail.html"]
+INFO     BasePage:basePage1.py:433 2020-12-15 14:34:17-044634 Switch to the iframe
+INFO     BasePage:basePage1.py:135 2020-12-15 14:34:17-095497 Had find the element ' 签约客户 ' successfully by xpath via value://button[contains(text(),"签约客户")]
+INFO     BasePage:basePage1.py:355 2020-12-15 14:34:17-239117 The emement was click
+INFO     BasePage:basePage1.py:144 2020-12-15 14:34:17-261055 Had find the element ' 确定 ' successfully by css selector via value:div.swal2-show button.swal2-confirm
+INFO     BasePage:basePage1.py:355 2020-12-15 14:34:17-355817 The emement was click
+INFO     BasePage:basePage1.py:135 2020-12-15 14:34:17-379737 Had find the element ' ဆ ' successfully by xpath via value://cite[contains(text(),"待跟客户")]/following-sibling::i[1]
+INFO     BasePage:basePage1.py:355 2020-12-15 14:34:17-457532 The emement was click
+INFO     BasePage:basePage1.py:135 2020-12-15 14:34:17-538315 Had find the element ' 客户管理 ' successfully by xpath via value://cite[contains(text(),"客户管理")]
+INFO     BasePage:basePage1.py:135 2020-12-15 14:34:17-612117 Had find the element ' 客户管理 ' successfully by xpath via value://cite[contains(text(),"客户管理")]
+INFO     BasePage:basePage1.py:355 2020-12-15 14:34:17-688913 The emement was click
+ERROR    BasePage:basePage1.py:75 2020-12-15 14:34:28-318548 Timeout查找元素超时
+ERROR    BasePage:basePage1.py:138 2020-12-15 14:34:38-377638 NoSuchElementException:Message: no such element: Unable to locate element: {"method":"xpath","selector":"//cite[contains(text(),"签约客户")]/following-sibling::i[1]"}
+  (Session info: chrome=87.0.4280.88)
+
+INFO     BasePage:basePage1.py:267 2020-12-15 14:34:38-703909 Had take screenshot and save to folder : /screenshots

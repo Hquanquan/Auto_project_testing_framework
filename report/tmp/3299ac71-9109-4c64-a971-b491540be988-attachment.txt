@@ -1,0 +1,26 @@
+ERROR    BasePage:basePage1.py:75 2021-02-23 14:08:50-036999 Timeout查找元素超时
+ERROR    BasePage:basePage1.py:138 2021-02-23 14:09:00-048231 NoSuchElementException:Message: no such element: Unable to locate element: {"method":"xpath","selector":"//cite[contains(text(),"客户管理")]"}
+  (Session info: chrome=88.0.4324.182)
+
+INFO     BasePage:basePage1.py:267 2021-02-23 14:09:00-420378 Had take screenshot and save to folder : /screenshots
+ERROR    BasePage:basePage1.py:75 2021-02-23 14:09:10-939345 Timeout查找元素超时
+ERROR    BasePage:basePage1.py:138 2021-02-23 14:09:20-961199 NoSuchElementException:Message: no such element: Unable to locate element: {"method":"xpath","selector":"//cite[contains(text(),"待跟客户")]"}
+  (Session info: chrome=88.0.4324.182)
+
+INFO     BasePage:basePage1.py:267 2021-02-23 14:09:21-279233 Had take screenshot and save to folder : /screenshots
+ERROR    BasePage:basePage1.py:75 2021-02-23 14:09:31-783581 Timeout查找元素超时
+ERROR    BasePage:basePage1.py:138 2021-02-23 14:09:41-809912 NoSuchElementException:Message: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[@src="pages/market/wait/wait.html"]"}
+  (Session info: chrome=88.0.4324.182)
+
+INFO     BasePage:basePage1.py:267 2021-02-23 14:09:42-226197 Had take screenshot and save to folder : /screenshots
+INFO     BasePage:basePage1.py:459 2021-02-23 14:09:42-229189 Switch to the iframe
+ERROR    BasePage:basePage1.py:75 2021-02-23 14:09:52-751312 Timeout查找元素超时
+ERROR    BasePage:basePage1.py:138 2021-02-23 14:10:02-794063 NoSuchElementException:Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@permission="45" and @lay-event="createCus"]"}
+  (Session info: chrome=88.0.4324.182)
+
+INFO     BasePage:basePage1.py:267 2021-02-23 14:10:03-112661 Had take screenshot and save to folder : /screenshots
+INFO     BasePage:basePage1.py:81 2021-02-23 14:10:03-162501 Had find the element '  ' successfully by id via value:logout
+INFO     BasePage:basePage1.py:381 2021-02-23 14:10:03-212367 The element was click
+INFO     BasePage:basePage1.py:144 2021-02-23 14:10:03-248270 Had find the element ' 确定 ' successfully by css selector via value:div.layui-layer-dialog a.layui-layer-btn0
+INFO     BasePage:basePage1.py:381 2021-02-23 14:10:03-293150 The element was click
+INFO     BasePage:basePage1.py:278 2021-02-23 14:10:03-294149 quit the browser!

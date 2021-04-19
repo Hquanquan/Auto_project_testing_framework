@@ -6,10 +6,11 @@
 # @Software: PyCharm
 # @Desc    : 测试网址，用户账号密码
 
+# HOST = "http://192.168.1.25/crmViewX"
 HOST = "http://192.168.1.25/crmViewX"
 
 # 用户信息
-userName = "15689546875"
+userName = "15515381638"
 password = "18002269982"
 
 # 显示等待超时时间

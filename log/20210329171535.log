@@ -1,0 +1,25 @@
+2021-03-29 17:15:36-362347 You had select Firefox browser!
+2021-03-29 17:15:36-362347 You had select None 
+2021-03-29 17:15:36-362347 The test server url is http://192.168.1.25/crmViewX
+2021-03-29 17:15:42-719717 Starting Firefox browser!
+2021-03-29 17:15:43-295421 Open url http://192.168.1.25/crmViewX 
+2021-03-29 17:15:43-298412 Set implicitly wait 10
+2021-03-29 17:15:43-419090 Had find the element '  ' successfully by id via value:username
+2021-03-29 17:15:43-472946 Had type ' 15515381638 ' in inputBox
+2021-03-29 17:15:43-495884 Had find the element '  ' successfully by id via value:password
+2021-03-29 17:15:43-533782 Had type ' 18002269982 ' in inputBox
+2021-03-29 17:15:43-565698 Had find the element ' 登录 ' successfully by css selector via value:.loginItem .layui-form-item button
+2021-03-29 17:15:43-968620 The element was click
+2021-03-29 17:15:44-225931 Had find the element ' 客户管理 ' successfully by xpath via value://cite[contains(text(),"客户管理")]
+2021-03-29 17:15:44-332647 Had find the element ' 客户管理 ' successfully by xpath via value://cite[contains(text(),"客户管理")]
+2021-03-29 17:15:44-599905 The element was click
+2021-03-29 17:15:44-639795 Had find the element ' 待跟客户 ' successfully by xpath via value://cite[contains(text(),"待跟客户")]
+2021-03-29 17:15:44-677695 Had find the element ' 待跟客户 ' successfully by xpath via value://cite[contains(text(),"待跟客户")]
+2021-03-29 17:15:44-905155 The element was click
+2021-03-29 17:15:44-955021 Had find the element '  ' successfully by xpath via value://iframe[@src="pages/market/wait/wait.html"]
+2021-03-29 17:15:44-969983 Switch to the iframe
+2021-03-29 17:15:45-700487 Had find the element ' 创建客户 ' successfully by xpath via value://button[@permission="45" and @lay-event="createCus"]
+2021-03-29 17:15:46-084172 The page has been refreshed
+2021-03-29 17:15:46-317580 Had find the element ' 首页概览 ' successfully by xpath via value://cite[contains(text(),"首页概览")]
+2021-03-29 17:15:46-384401 Had find the element ' 首页概览 ' successfully by xpath via value://cite[contains(text(),"首页概览")]
+2021-03-29 17:15:46-621766 The element was click

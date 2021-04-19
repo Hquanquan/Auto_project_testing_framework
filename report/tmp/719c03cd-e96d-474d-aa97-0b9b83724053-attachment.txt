@@ -1,0 +1,17 @@
+INFO     myDriver:webDriver.py:48 2020-12-12 14:23:32-352645 You had select Chrome browser!
+INFO     myDriver:webDriver.py:51 2020-12-12 14:23:32-352645 You had select E:\Python\chromedriver_win32\chromedriver.exe 
+INFO     myDriver:webDriver.py:54 2020-12-12 14:23:32-352645 The test server url is http://192.168.0.173/crmViewX
+INFO     myDriver:webDriver.py:59 2020-12-12 14:23:35-851331 Starting Chorme browser!
+INFO     myDriver:webDriver.py:76 2020-12-12 14:23:38-226463 Open url http://192.168.0.173/crmViewX 
+INFO     myDriver:webDriver.py:79 2020-12-12 14:23:38-227459 Set implicitly wait 10
+INFO     BasePage:basePage1.py:81 2020-12-12 14:23:38-354120 Had find the element '  ' successfully by id via value:username
+INFO     BasePage:basePage1.py:325 2020-12-12 14:23:38-470810 Had type ' 13546859758 ' in inputBox
+INFO     BasePage:basePage1.py:81 2020-12-12 14:23:38-496740 Had find the element '  ' successfully by id via value:password
+INFO     BasePage:basePage1.py:325 2020-12-12 14:23:38-617420 Had type ' 18819443338 ' in inputBox
+INFO     BasePage:basePage1.py:144 2020-12-12 14:23:38-666286 Had find the element ' 登录 ' successfully by css selector via value:.loginItem .layui-form-item button
+INFO     BasePage:basePage1.py:355 2020-12-12 14:23:38-723136 The emement was click
+ERROR    BasePage:basePage1.py:75 2020-12-12 14:23:49-289823 Timeout查找元素超时
+ERROR    BasePage:basePage1.py:138 2020-12-12 14:23:59-335183 NoSuchElementException:Message: no such element: Unable to locate element: {"method":"xpath","selector":"//cite[contains(text(),"客户管理")]"}
+  (Session info: chrome=87.0.4280.88)
+
+INFO     BasePage:basePage1.py:267 2020-12-12 14:24:00-804358 Had take screenshot and save to folder : /screenshots

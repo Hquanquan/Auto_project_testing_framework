@@ -1,0 +1,20 @@
+INFO     BasePage:basePage1.py:135 2021-03-29 15:13:27-992553 Had find the element ' 客户管理 ' successfully by xpath via value://cite[contains(text(),"客户管理")]
+INFO     BasePage:basePage1.py:135 2021-03-29 15:13:28-032519 Had find the element ' 客户管理 ' successfully by xpath via value://cite[contains(text(),"客户管理")]
+INFO     BasePage:basePage1.py:381 2021-03-29 15:13:28-068817 The element was click
+ERROR    BasePage:basePage1.py:75 2021-03-29 15:13:38-499850 Timeout查找元素超时
+INFO     BasePage:basePage1.py:135 2021-03-29 15:13:38-505834 Had find the element '  ' successfully by xpath via value://cite[contains(text(),"待跟客户")]
+INFO     BasePage:basePage1.py:135 2021-03-29 15:13:38-543572 Had find the element '  ' successfully by xpath via value://iframe[@src="pages/market/wait/wait.html"]
+INFO     BasePage:basePage1.py:459 2021-03-29 15:13:38-567508 Switch to the iframe
+INFO     BasePage:basePage1.py:135 2021-03-29 15:13:38-586453 Had find the element ' 创建客户 ' successfully by xpath via value://button[@permission="45" and @lay-event="createCus"]
+INFO     BasePage:basePage1.py:381 2021-03-29 15:13:38-670236 The element was click
+ERROR    BasePage:basePage1.py:75 2021-03-29 15:13:49-199168 Timeout查找元素超时
+ERROR    BasePage:basePage1.py:84 2021-03-29 15:13:59-237634 NoSuchElementException:Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="layui-layer-iframe2"]"}
+  (Session info: chrome=89.0.4389.90)
+
+INFO     BasePage:basePage1.py:267 2021-03-29 15:13:59-575628 Had take screenshot and save to folder : /screenshots
+INFO     BasePage:basePage1.py:459 2021-03-29 15:13:59-577624 Switch to the iframe
+ERROR    BasePage:basePage1.py:75 2021-03-29 15:14:10-128966 Timeout查找元素超时
+ERROR    BasePage:basePage1.py:138 2021-03-29 15:14:20-151486 NoSuchElementException:Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type="text" and @placeholder="公司名称"]"}
+  (Session info: chrome=89.0.4389.90)
+
+INFO     BasePage:basePage1.py:267 2021-03-29 15:14:20-546310 Had take screenshot and save to folder : /screenshots

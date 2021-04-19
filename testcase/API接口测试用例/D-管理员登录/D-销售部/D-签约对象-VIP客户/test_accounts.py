@@ -4,7 +4,7 @@
 # @File : test_accounts.py 
 # @Author  : 黄权权
 # @Software: PyCharm
-# @Desc    : 当前系统已有签约对象了
+# @Desc    : 当前系统已有签约对象
 import allure
 import pytest
 

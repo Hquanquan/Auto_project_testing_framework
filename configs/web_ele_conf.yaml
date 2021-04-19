@@ -88,8 +88,11 @@ WaittingCustomersPage:
   #  咨询资质
   qualification_input: ["xpath",'//input[@type="text" and @placeholder="咨询资质"]']
   #  客户来源
-
-  #  来源渠道
+  Customer_source_input: ["css selector", ".sourceSel input"]
+  # 来源渠道input
+  Source_channel_input: ["xpath",'//input[@class="layui-input layui-unselect" and @type="text" and @placeholder="请选择"]']
+  #  来源渠道select选择器
+  Source_channel_select: ["xpath",'//select[@lay-filter="sourceChannel" and @name="sourceChannel"]']
 
   #  所在地区输入框
   location_input: ["css selector","#xmSelect div.xm-tips"]

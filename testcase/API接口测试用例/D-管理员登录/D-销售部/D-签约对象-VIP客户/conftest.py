@@ -26,9 +26,13 @@ def init_accounts(admin_login, init_organiz):
     :param init_organiz: 提供销售部对象信息
     :return:
     """
+    # 1、创建一个销售部，并返回该销售部实例对象
     sale_org = init_organiz[1]
+    # 2、实例化一个签约对象
     accounts_api = AccountsAPI(admin_login)
+    # 3、删除所有的签约对象
     accounts_api.delete_all()
+    # 4、新建一个新的签约对象-VIP客户
     vip_account = accounts_api.add(name="VIP客户", company_ids=[sale_org["_id"]])
     yield accounts_api, vip_account
     accounts_api.delete(vip_account["_id"])

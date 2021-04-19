@@ -1,0 +1,9 @@
+INFO     BasePage:basePage1.py:135 2021-03-29 15:12:02-749721 Had find the element ' 客户管理 ' successfully by xpath via value://cite[contains(text(),"客户管理")]
+INFO     BasePage:basePage1.py:135 2021-03-29 15:12:02-786716 Had find the element ' 客户管理 ' successfully by xpath via value://cite[contains(text(),"客户管理")]
+INFO     BasePage:basePage1.py:381 2021-03-29 15:12:02-827598 The element was click
+INFO     BasePage:basePage1.py:135 2021-03-29 15:12:02-855368 Had find the element ' 待跟客户 ' successfully by xpath via value://cite[contains(text(),"待跟客户")]
+INFO     BasePage:basePage1.py:135 2021-03-29 15:12:02-903243 Had find the element ' 待跟客户 ' successfully by xpath via value://cite[contains(text(),"待跟客户")]
+INFO     BasePage:basePage1.py:381 2021-03-29 15:12:02-951932 The element was click
+INFO     BasePage:basePage1.py:135 2021-03-29 15:12:02-973872 Had find the element '  ' successfully by xpath via value://iframe[@src="pages/market/wait/wait.html"]
+INFO     BasePage:basePage1.py:459 2021-03-29 15:12:03-001797 Switch to the iframe
+INFO     BasePage:basePage1.py:135 2021-03-29 15:12:03-023739 Had find the element ' 创建客户 ' successfully by xpath via value://button[@permission="45" and @lay-event="createCus"]

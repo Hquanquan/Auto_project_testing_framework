@@ -5,6 +5,7 @@
 # @Author  : 黄权权
 # @Software: PyCharm
 # @Desc    : None
+import allure
 import pytest
 
 from configs.api_env import userName, password

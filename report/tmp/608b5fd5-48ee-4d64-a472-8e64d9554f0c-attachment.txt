@@ -1,0 +1,101 @@
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:06-633402 Had find the element ' 客户管理 ' successfully by xpath via value://cite[contains(text(),"客户管理")]
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:06-675290 Had find the element ' 客户管理 ' successfully by xpath via value://cite[contains(text(),"客户管理")]
+INFO     BasePage:basePage1.py:355 2020-12-12 17:55:06-717179 The emement was click
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:07-386430 Had find the element ' 待跟客户 ' successfully by xpath via value://cite[contains(text(),"待跟客户")]
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:07-427303 Had find the element ' 待跟客户 ' successfully by xpath via value://cite[contains(text(),"待跟客户")]
+INFO     BasePage:basePage1.py:355 2020-12-12 17:55:07-479181 The emement was click
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:07-540017 Had find the element '  ' successfully by xpath via value://iframe[@src="pages/market/wait/wait.html"]
+INFO     BasePage:basePage1.py:433 2020-12-12 17:55:07-599857 Switch to the iframe
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:07-750454 Had find the element ' 创建客户 ' successfully by xpath via value://button[@permission="45" and @lay-event="createCus"]
+INFO     BasePage:basePage1.py:355 2020-12-12 17:55:08-381354 The emement was click
+INFO     BasePage:basePage1.py:81 2020-12-12 17:55:08-422262 Had find the element '  ' successfully by id via value:layui-layer-iframe2
+INFO     BasePage:basePage1.py:433 2020-12-12 17:55:08-568140 Switch to the iframe
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:08-654905 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="公司名称"]
+INFO     BasePage:basePage1.py:325 2020-12-12 17:55:08-805503 Had type ' 公司名称20201212175508 ' in inputBox
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:08-836421 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="联系电话"]
+INFO     BasePage:basePage1.py:325 2020-12-12 17:55:08-930171 Had type ' 13642676220 ' in inputBox
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:08-952111 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="联系微信"]
+INFO     BasePage:basePage1.py:325 2020-12-12 17:55:09-052842 Had type ' wx20201212175508 ' in inputBox
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:09-078773 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="联系QQ"]
+INFO     BasePage:basePage1.py:325 2020-12-12 17:55:09-169530 Had type ' 17079679764 ' in inputBox
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:09-197455 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="联系人员"]
+INFO     BasePage:basePage1.py:325 2020-12-12 17:55:09-312150 Had type ' 联系人20201212175508 ' in inputBox
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:09-337082 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="email"]
+INFO     BasePage:basePage1.py:325 2020-12-12 17:55:09-445794 Had type ' 17270082049@test.com ' in inputBox
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:09-470725 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="部门职位"]
+INFO     BasePage:basePage1.py:325 2020-12-12 17:55:09-547521 Had type ' 董事长助理 ' in inputBox
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:09-570458 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="咨询资质"]
+INFO     BasePage:basePage1.py:325 2020-12-12 17:55:09-647255 Had type ' 工程造价 ' in inputBox
+INFO     BasePage:basePage1.py:144 2020-12-12 17:55:09-671189 Had find the element ' 请选择地区 ' successfully by css selector via value: #xmSelect div.xm-tips
+INFO     BasePage:basePage1.py:355 2020-12-12 17:55:09-773943 The emement was click
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:10-297297 Had find the element ' 广东省 ' successfully by xpath via value://div[contains(text(),"广东省")]
+INFO     BasePage:basePage1.py:355 2020-12-12 17:55:10-383068 The emement was click
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:10-936755 Had find the element ' 广州市 ' successfully by xpath via value://div[contains(text(),"广州市")]
+INFO     BasePage:basePage1.py:355 2020-12-12 17:55:11-038484 The emement was click
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:11-071396 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="请选择资质类型"]
+INFO     BasePage:basePage1.py:355 2020-12-12 17:55:11-167153 The emement was click
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:11-198069 Had find the element ' 施工 ' successfully by xpath via value://dd[contains(text(),"施工")]
+INFO     BasePage:basePage1.py:355 2020-12-12 17:55:11-283838 The emement was click
+INFO     BasePage:basePage1.py:144 2020-12-12 17:55:11-307775 Had find the element '  ' successfully by css selector via value:#mount #text_txt1
+INFO     BasePage:basePage1.py:325 2020-12-12 17:55:11-436432 Had type ' 测试创建客户20201212175508 ' in inputBox
+INFO     BasePage:basePage1.py:144 2020-12-12 17:55:11-465354 Had find the element ' 信息保存 ' successfully by css selector via value:#mount .layui-btn
+INFO     BasePage:basePage1.py:355 2020-12-12 17:55:11-565112 The emement was click
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:14-592289 Had find the element ' 首页概览 ' successfully by xpath via value://cite[contains(text(),"首页概览")]
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:14-632240 Had find the element ' 首页概览 ' successfully by xpath via value://cite[contains(text(),"首页概览")]
+INFO     BasePage:basePage1.py:355 2020-12-12 17:55:14-670122 The emement was click
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:14-773842 Had find the element ' 客户管理 ' successfully by xpath via value://cite[contains(text(),"客户管理")]
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:14-907486 Had find the element ' 客户管理 ' successfully by xpath via value://cite[contains(text(),"客户管理")]
+INFO     BasePage:basePage1.py:355 2020-12-12 17:55:15-022179 The emement was click
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:15-616793 Had find the element ' 待跟客户 ' successfully by xpath via value://cite[contains(text(),"待跟客户")]
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:15-663666 Had find the element ' 待跟客户 ' successfully by xpath via value://cite[contains(text(),"待跟客户")]
+INFO     BasePage:basePage1.py:355 2020-12-12 17:55:15-706551 The emement was click
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:15-753426 Had find the element '  ' successfully by xpath via value://iframe[@src="pages/market/wait/wait.html"]
+INFO     BasePage:basePage1.py:433 2020-12-12 17:55:15-964863 Switch to the iframe
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:16-004754 Had find the element ' 创建客户 ' successfully by xpath via value://button[@permission="45" and @lay-event="createCus"]
+INFO     BasePage:basePage1.py:355 2020-12-12 17:55:16-594846 The emement was click
+INFO     BasePage:basePage1.py:81 2020-12-12 17:55:16-646707 Had find the element '  ' successfully by id via value:layui-layer-iframe2
+INFO     BasePage:basePage1.py:433 2020-12-12 17:55:16-758555 Switch to the iframe
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:16-856266 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="公司名称"]
+INFO     BasePage:basePage1.py:325 2020-12-12 17:55:17-071790 Had type ' 公司名称20201212175516 ' in inputBox
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:17-101709 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="联系电话"]
+INFO     BasePage:basePage1.py:325 2020-12-12 17:55:17-188477 Had type ' 17235011268 ' in inputBox
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:17-213410 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="联系微信"]
+INFO     BasePage:basePage1.py:325 2020-12-12 17:55:17-312147 Had type ' wx20201212175516 ' in inputBox
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:17-338076 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="联系QQ"]
+INFO     BasePage:basePage1.py:325 2020-12-12 17:55:17-444793 Had type ' 13950113509 ' in inputBox
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:17-470722 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="联系人员"]
+INFO     BasePage:basePage1.py:325 2020-12-12 17:55:17-574455 Had type ' 联系人20201212175516 ' in inputBox
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:17-600384 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="email"]
+INFO     BasePage:basePage1.py:325 2020-12-12 17:55:17-713084 Had type ' 14960818167@test.com ' in inputBox
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:17-736021 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="部门职位"]
+INFO     BasePage:basePage1.py:325 2020-12-12 17:55:17-814811 Had type ' 董事长助理 ' in inputBox
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:17-838746 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="咨询资质"]
+INFO     BasePage:basePage1.py:325 2020-12-12 17:55:17-918533 Had type ' 工程造价 ' in inputBox
+INFO     BasePage:basePage1.py:144 2020-12-12 17:55:17-942471 Had find the element ' 请选择地区 ' successfully by css selector via value: #xmSelect div.xm-tips
+INFO     BasePage:basePage1.py:355 2020-12-12 17:55:18-049186 The emement was click
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:18-578174 Had find the element ' 广东省 ' successfully by xpath via value://div[contains(text(),"广东省")]
+INFO     BasePage:basePage1.py:355 2020-12-12 17:55:18-667935 The emement was click
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:19-194415 Had find the element ' 广州市 ' successfully by xpath via value://div[contains(text(),"广州市")]
+INFO     BasePage:basePage1.py:355 2020-12-12 17:55:19-287168 The emement was click
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:19-320079 Had find the element '  ' successfully by xpath via value://input[@type="text" and @placeholder="请选择资质类型"]
+INFO     BasePage:basePage1.py:355 2020-12-12 17:55:19-415825 The emement was click
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:19-440755 Had find the element ' 施工 ' successfully by xpath via value://dd[contains(text(),"施工")]
+INFO     BasePage:basePage1.py:355 2020-12-12 17:55:19-526528 The emement was click
+INFO     BasePage:basePage1.py:144 2020-12-12 17:55:19-551459 Had find the element '  ' successfully by css selector via value:#mount #text_txt1
+INFO     BasePage:basePage1.py:325 2020-12-12 17:55:19-682112 Had type ' 测试创建客户20201212175516 ' in inputBox
+INFO     BasePage:basePage1.py:144 2020-12-12 17:55:19-709039 Had find the element ' 信息保存 ' successfully by css selector via value:#mount .layui-btn
+INFO     BasePage:basePage1.py:355 2020-12-12 17:55:19-806779 The emement was click
+INFO     BasePage:basePage1.py:453 2020-12-12 17:55:22-898596 The page has been refreshed
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:23-034240 Had find the element '  ' successfully by xpath via value://iframe[@src="pages/market/wait/wait.html"]
+INFO     BasePage:basePage1.py:433 2020-12-12 17:55:23-075123 Switch to the iframe
+INFO     BasePage:basePage1.py:81 2020-12-12 17:55:23-115019 Had find the element '  ' successfully by id via value:cnOrPnOrPInp
+INFO     BasePage:basePage1.py:325 2020-12-12 17:55:23-277584 Had type ' 公司名称20201212175516 ' in inputBox
+INFO     BasePage:basePage1.py:81 2020-12-12 17:55:23-302515 Had find the element ' 查询 ' successfully by id via value:search
+INFO     BasePage:basePage1.py:355 2020-12-12 17:55:23-785601 The emement was click
+INFO     BasePage:basePage1.py:144 2020-12-12 17:55:23-840446 Had find the element ' 公司名称20201212175516 ' successfully by css selector via value:.layui-table-main tbody td:nth-child(4)
+INFO     BasePage:basePage1.py:144 2020-12-12 17:55:23-889315 Had find the element ' 17235011268（电话） ' successfully by css selector via value:.layui-table-main tbody td:nth-child(6)
+INFO     BasePage:basePage1.py:144 2020-12-12 17:55:23-938185 Had find the element ' 联系人20201212175516 ' successfully by css selector via value:.layui-table-main tbody td:nth-child(5)
+INFO     BasePage:basePage1.py:453 2020-12-12 17:55:24-037919 The page has been refreshed
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:24-185524 Had find the element ' 首页概览 ' successfully by xpath via value://cite[contains(text(),"首页概览")]
+INFO     BasePage:basePage1.py:135 2020-12-12 17:55:24-249353 Had find the element ' 首页概览 ' successfully by xpath via value://cite[contains(text(),"首页概览")]
+INFO     BasePage:basePage1.py:355 2020-12-12 17:55:24-334133 The emement was click

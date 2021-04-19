@@ -1,0 +1,17 @@
+ERROR    BasePage:basePage1.py:75 2020-12-14 19:45:43-624876 Timeout查找元素超时
+ERROR    BasePage:basePage1.py:138 2020-12-14 19:45:53-652875 NoSuchElementException:Message: no such element: Unable to locate element: {"method":"xpath","selector":"//cite[contains(text(),"客户管理")]"}
+  (Session info: chrome=87.0.4280.88)
+
+INFO     BasePage:basePage1.py:267 2020-12-14 19:45:53-990991 Had take screenshot and save to folder : /screenshots
+ERROR    BasePage:basePage1.py:75 2020-12-14 19:46:04-514572 Timeout查找元素超时
+INFO     BasePage:basePage1.py:135 2020-12-14 19:46:04-739962 Had find the element ' 待跟客户 ' successfully by xpath via value://cite[contains(text(),"待跟客户")]
+INFO     BasePage:basePage1.py:135 2020-12-14 19:46:04-892554 Had find the element ' 待跟客户 ' successfully by xpath via value://cite[contains(text(),"待跟客户")]
+INFO     BasePage:basePage1.py:355 2020-12-14 19:46:05-019215 The emement was click
+INFO     BasePage:basePage1.py:135 2020-12-14 19:46:05-103989 Had find the element '  ' successfully by xpath via value://iframe[@src="pages/market/wait/wait.html"]
+INFO     BasePage:basePage1.py:433 2020-12-14 19:46:05-170811 Switch to the iframe
+INFO     BasePage:basePage1.py:81 2020-12-14 19:46:05-278523 Had find the element ' 重置 ' successfully by id via value:reset
+INFO     BasePage:basePage1.py:355 2020-12-14 19:46:05-860261 The emement was click
+INFO     BasePage:basePage1.py:81 2020-12-14 19:46:05-910125 Had find the element '  ' successfully by id via value:cnOrPnOrPInp
+INFO     BasePage:basePage1.py:325 2020-12-14 19:46:06-091641 Had type ' 公司名称20201214194511 ' in inputBox
+INFO     BasePage:basePage1.py:81 2020-12-14 19:46:06-129541 Had find the element ' 查询 ' successfully by id via value:search
+INFO     BasePage:basePage1.py:355 2020-12-14 19:46:06-327013 The emement was click

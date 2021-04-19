@@ -1,0 +1,5 @@
+ERROR    BasePage:basePage1.py:75 2020-12-12 11:47:24-701717 Timeout查找元素超时
+ERROR    BasePage:basePage1.py:138 2020-12-12 11:47:34-744267 NoSuchElementException:Message: no such element: Unable to locate element: {"method":"xpath","selector":"//cite[contains(text(),"客户管理")]"}
+  (Session info: chrome=87.0.4280.88)
+
+INFO     BasePage:basePage1.py:267 2020-12-12 11:47:35-106300 Had take screenshot and save to folder : /screenshots

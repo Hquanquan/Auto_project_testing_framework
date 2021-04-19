@@ -1,0 +1,15 @@
+INFO     BasePage:basePage1.py:135 2020-12-12 13:46:27-918952 Had find the element ' 客户管理 ' successfully by xpath via value://cite[contains(text(),"客户管理")]
+INFO     BasePage:basePage1.py:135 2020-12-12 13:46:28-000736 Had find the element ' 客户管理 ' successfully by xpath via value://cite[contains(text(),"客户管理")]
+INFO     BasePage:basePage1.py:355 2020-12-12 13:46:28-085508 The emement was click
+INFO     BasePage:basePage1.py:135 2020-12-12 13:46:28-124403 Had find the element ' 待跟客户 ' successfully by xpath via value://cite[contains(text(),"待跟客户")]
+INFO     BasePage:basePage1.py:135 2020-12-12 13:46:28-176264 Had find the element ' 待跟客户 ' successfully by xpath via value://cite[contains(text(),"待跟客户")]
+INFO     BasePage:basePage1.py:355 2020-12-12 13:46:28-399669 The emement was click
+INFO     BasePage:basePage1.py:135 2020-12-12 13:46:28-464495 Had find the element '  ' successfully by xpath via value://iframe[@src="pages/market/wait/wait.html"]
+INFO     BasePage:basePage1.py:433 2020-12-12 13:46:28-519348 Switch to the iframe
+INFO     BasePage:basePage1.py:81 2020-12-12 13:46:28-572207 Had find the element ' 重置 ' successfully by id via value:reset
+INFO     BasePage:basePage1.py:355 2020-12-12 13:46:29-267651 The emement was click
+INFO     BasePage:basePage1.py:81 2020-12-12 13:46:29-300561 Had find the element '  ' successfully by id via value:cnOrPnOrPInp
+INFO     BasePage:basePage1.py:325 2020-12-12 13:46:29-394310 Had type ' 公司名称20201212134559 ' in inputBox
+INFO     BasePage:basePage1.py:81 2020-12-12 13:46:31-450494 Had find the element ' 查询 ' successfully by id via value:search
+INFO     BasePage:basePage1.py:355 2020-12-12 13:46:31-519311 The emement was click
+INFO     BasePage:basePage1.py:225 2020-12-12 13:46:43-540581 Had find the elements  successfully by xpath via value://button[contains(text(),"详情")]

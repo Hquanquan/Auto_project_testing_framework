@@ -67,6 +67,11 @@ class TestOrganizAPI:
     @allure.story("部门-OrganizaAPI-删除部门")
     @allure.title("删除部门测试用例")
     def test_tc000092(self, init_organiz):
+        """
+        当前系统已有部门，同一个不存在的部门id来删除部门
+        :param init_organiz:
+        :return:
+        """
         self.org_api = init_organiz[0]
         orgs1 = self.org_api.list_all()
         self.org_api.delete("sdfasdfasdf")
